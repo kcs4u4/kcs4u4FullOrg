@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Attachment Id --></label>
+        <name>FieloEE__AttachmentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSSClasses --></label>
+        <name>FieloEE__CSSClasses__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a CSS code for this menu. --></help>
+        <label><!-- CSS --></label>
+        <name>FieloEE__CSS__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the URL to where you want to redirect. The link must be of the form http://www.domain.com. --></help>
+        <label><!-- Custom URL --></label>
+        <name>FieloEE__CustomURL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a description for this menu (only visible from the back end). --></help>
+        <label><!-- Description --></label>
+        <name>FieloEE__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this option for making this menu visible on a desktop computer. --></help>
+        <label><!-- Desktop --></label>
+        <name>FieloEE__Desktop__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Name --></label>
+        <name>FieloEE__ExternalName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Multi Segments --></label>
+        <name>FieloEE__HasMultiSegments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this option for making this the Home page. --></help>
+        <label><!-- Home --></label>
+        <name>FieloEE__Home__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image Position --></label>
+        <name>FieloEE__ImagePosition__c</name>
+        <picklistValues>
+            <masterLabel>Left</masterLabel>
+            <translation><!-- Left --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Only Image</masterLabel>
+            <translation><!-- Only Image --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Only Name</masterLabel>
+            <translation><!-- Only Name --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Right</masterLabel>
+            <translation><!-- Right --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Image --></label>
+        <name>FieloEE__Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Device --></label>
+        <name>FieloEE__Layout__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banner + Two Columns</masterLabel>
+            <translation><!-- Banner + Two Columns --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One Column</masterLabel>
+            <translation><!-- One Column --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Two Columns</masterLabel>
+            <translation><!-- Two Columns --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Has components --></label>
+        <name>FieloEE__Link__c</name>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Menu --></label>
+        <name>FieloEE__Menu__c</name>
+        <relationshipLabel><!-- Sub Menus --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Check this option for making this menu to be visible on a mobile device. --></help>
+        <label><!-- Mobile --></label>
+        <name>FieloEE__Mobile__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the order in which this menu will be showed in the members&apos; portal. --></help>
+        <label><!-- Order --></label>
+        <name>FieloEE__Order__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pick the placement for this menu. --></help>
+        <label><!-- Placement --></label>
+        <name>FieloEE__Placement__c</name>
+        <picklistValues>
+            <masterLabel>Footer</masterLabel>
+            <translation><!-- Footer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Main</masterLabel>
+            <translation><!-- Main --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top</masterLabel>
+            <translation><!-- Top --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the program to which this menu belongs. --></help>
+        <label><!-- Program --></label>
+        <name>FieloEE__Program__c</name>
+        <relationshipLabel><!-- Menu --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Check this box in order to activate this content feed. --></help>
+        <label><!-- Segment --></label>
+        <name>FieloEE__RedemptionRule__c</name>
+        <relationshipLabel><!-- Menu --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SEO Description --></label>
+        <name>FieloEE__SEODescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- SEO Keywords --></label>
+        <name>FieloEE__SEOKeywords__c</name>
+    </fields>
+    <fields>
+        <label><!-- SEO Title --></label>
+        <name>FieloEE__SEOTitle__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this option for making this menu visible on a tablet computer. --></help>
+        <label><!-- Tablet --></label>
+        <name>FieloEE__Tablet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a title that will show on top of the page. --></help>
+        <label><!-- Title --></label>
+        <name>FieloEE__Title__c</name>
+    </fields>
+    <fields>
+        <help>Define who will see the menu.</help>
+        <label><!-- Visibility --></label>
+        <name>FieloEE__visibility__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hidden</masterLabel>
+            <translation><!-- Hidden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private</masterLabel>
+            <translation><!-- Private --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public</masterLabel>
+            <translation><!-- Public --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Menu</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sub Menu</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>menu2</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Menu --></label>
+        <name>Menu</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sub Menu --></label>
+        <name>SubMenu</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Is not possible to modify the associated Program --></errorMessage>
+        <name>FieloEE__ModifyProgram</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Back --></label>
+        <name>FieloEE__Back</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- BackToFrontEnd --></label>
+        <name>FieloEE__BackToFrontEnd</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DeepClone --></label>
+        <name>FieloEE__DeepClone</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExportMenu --></label>
+        <name>FieloEE__ExportMenu</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewSubMenu --></label>
+        <name>FieloEE__NewSubMenu</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- OrderMenuFooter --></label>
+        <name>FieloEE__OrderMenuFooter</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- OrderMenuTop --></label>
+        <name>FieloEE__OrderMenuTop</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- OrderSubMenu --></label>
+        <name>FieloEE__OrderSubMenu</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Preview --></label>
+        <name>FieloEE__Preview</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SetHome --></label>
+        <name>FieloEE__SetHome</name>
+    </webLinks>
+</CustomObjectTranslation>

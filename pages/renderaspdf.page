@@ -1,0 +1,13 @@
+<apex:page standardController="Branch1__c">
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  This is your new Page Hl
+ <!--  <apex:pageBlock rendered="{!$Permission.New_Permission}">
+ <apex:repeat value="{!$ObjectType.Branch__c.FieldSets.NewFieldSet}" 
+    var="f">
+    </apex:repeat>  -->
+   <!-- Executive Data Here 
+   </apex:pageBlock> -->
+  <!-- End Default Content REMOVE THIS -->
+  <flow:interview name="newFlow"/>
+</apex:page>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Enter a description for this segment. --></help>
+        <label><!-- Description --></label>
+        <name>FieloEE__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>FieloEE__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>FieloEE__Program__c</name>
+        <relationshipLabel><!-- Segment --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Check this option in order to activate this segment. --></help>
+        <label><!-- Active --></label>
+        <name>FieloEE__isActive__c</name>
+    </fields>
+    <layouts>
+        <layout>Dynamic</layout>
+        <sections>
+            <label><!-- Criterias --></label>
+            <section>Criterias</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Members --></label>
+            <section>Members</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Manual</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Dynamic --></label>
+        <name>Dynamic</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Manual --></label>
+        <name>Manual</name>
+    </recordTypes>
+</CustomObjectTranslation>

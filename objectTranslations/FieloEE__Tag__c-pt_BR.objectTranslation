@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Destaque</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Destaques</value>
+    </caseValues>
+    <fields>
+        <help><!-- Upload an image for this tag. --></help>
+        <label><!-- Attachment Id --></label>
+        <name>FieloEE__AttachmentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Filter --></label>
+        <name>FieloEE__Filter__c</name>
+        <picklistValues>
+            <masterLabel>Likes</masterLabel>
+            <translation><!-- Likes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MyRewards</masterLabel>
+            <translation><!-- MyRewards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WishList</masterLabel>
+            <translation><!-- WishList --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Image --></label>
+        <name>FieloEE__Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>FieloEE__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>FieloEE__Program__c</name>
+        <relationshipLabel><!-- Tag --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tag --></label>
+        <name>FieloEE__Tag__c</name>
+        <relationshipLabel><!-- Tag --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Rewards --></label>
+        <name>FieloEE__TotalRewards__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Tag</layout>
+        <sections>
+            <label>Links customizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Imagem</label>
+            <section>Image</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nome</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Dynamic --></label>
+        <name>Dynamic</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Standard --></label>
+        <name>Standard</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Order must be positive --></errorMessage>
+        <name>FieloEE__OrderMustBePositive</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ReorderTags --></label>
+        <name>FieloEE__ReorderTags</name>
+    </webLinks>
+</CustomObjectTranslation>

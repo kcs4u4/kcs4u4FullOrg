@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Transaction --></label>
+        <name>FieloEE__Transaction__c</name>
+        <relationshipLabel><!-- Codes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Used --></label>
+        <name>FieloEE__Used__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- LoadCodes --></label>
+        <name>FieloEE__LoadCodes</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Height --></label>
+        <name>FieloEE__Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>FieloEE__Language__c</name>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation><!-- English --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Español</masterLabel>
+            <translation><!-- Español --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French</masterLabel>
+            <translation><!-- French --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portuguese</masterLabel>
+            <translation><!-- Portuguese --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Member --></label>
+        <name>FieloEE__Member__c</name>
+        <relationshipLabel><!-- Preview Settings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Mode --></label>
+        <name>FieloEE__Mode__c</name>
+        <picklistValues>
+            <masterLabel>Live</masterLabel>
+            <translation><!-- Live --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wireframe</masterLabel>
+            <translation><!-- Wireframe --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Overlay --></label>
+        <name>FieloEE__Overlay__c</name>
+        <picklistValues>
+            <masterLabel>All</masterLabel>
+            <translation><!-- All --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disabled</masterLabel>
+            <translation><!-- Disabled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hover</masterLabel>
+            <translation><!-- Hover --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>FieloEE__Program__c</name>
+        <relationshipLabel><!-- Preview Settings --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Segments --></label>
+        <name>FieloEE__Segments__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>FieloEE__User__c</name>
+        <relationshipLabel><!-- Preview Settings --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

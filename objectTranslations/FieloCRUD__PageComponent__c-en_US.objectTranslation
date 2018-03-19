@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Additional CSS Classes --></label>
+        <name>FieloCRUD__AdditionalCSSClasses__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSS Content --></label>
+        <name>FieloCRUD__CSSContent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field API Name --></label>
+        <name>FieloCRUD__FieldApiName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Define the field API name (from the related object) that will be displayed on the picklist. --></help>
+        <label><!-- Field To Show In Picklist --></label>
+        <name>FieloCRUD__FieldLookupFieldToShow__c</name>
+    </fields>
+    <fields>
+        <help><!-- Define your WHERE condition clause for the object related through the lookup. You may include fields; ORDER BY and LIMIT clauses; and variables for Member Id, Account Id, Contact Id, UserId (ex. Member__c =: memberId) --></help>
+        <label><!-- Where Condition --></label>
+        <name>FieloCRUD__FieldLookupWhereCondition__c</name>
+    </fields>
+    <fields>
+        <help><!-- Este campo se completa automáticamente por trigger --></help>
+        <label><!-- Field Type --></label>
+        <name>FieloCRUD__FieldType__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Upload Mandatory --></label>
+        <name>FieloCRUD__FileUploadMandatory__c</name>
+    </fields>
+    <fields>
+        <label><!-- HTML Code --></label>
+        <name>FieloCRUD__HTMLCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- HTML Content --></label>
+        <name>FieloCRUD__HTMLContent__c</name>
+    </fields>
+    <fields>
+        <label><!-- HTML Escape --></label>
+        <name>FieloCRUD__HTMLEscape__c</name>
+    </fields>
+    <fields>
+        <help><!-- Complete with the number of pixels. Ex &quot;100px&quot; --></help>
+        <label><!-- Height --></label>
+        <name>FieloCRUD__Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide Label --></label>
+        <name>FieloCRUD__HideLabel__c</name>
+    </fields>
+    <fields>
+        <label><!-- JS Code --></label>
+        <name>FieloCRUD__JSCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Limit Attachments --></label>
+        <name>FieloCRUD__LimitAttachments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Navigation --></label>
+        <name>FieloCRUD__Navigation__c</name>
+        <picklistValues>
+            <masterLabel>Navigate</masterLabel>
+            <translation><!-- Navigate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No page</masterLabel>
+            <translation><!-- No page --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Target</masterLabel>
+            <translation><!-- Target --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Complete with the Object API name of the records that you want to add through the page layout. --></help>
+        <label><!-- Object API Name --></label>
+        <name>FieloCRUD__ObjectAPIName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>FieloCRUD__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL --></label>
+        <name>FieloCRUD__PageName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Page Section --></label>
+        <name>FieloCRUD__PageSection__c</name>
+        <relationshipLabel><!-- Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Page Size --></label>
+        <name>FieloCRUD__PageSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- Complete with the API name of the lookup field that relates the object defined on &quot;Object API Name&quot; with the object setting of the page layout. --></help>
+        <label><!-- Parent Field --></label>
+        <name>FieloCRUD__ParentField__c</name>
+    </fields>
+    <fields>
+        <help><!-- Shows a year picklist on date fields --></help>
+        <label><!-- Picklist Year --></label>
+        <name>FieloCRUD__PicklistYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Read Only --></label>
+        <name>FieloCRUD__ReadOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecordType Name --></label>
+        <name>FieloCRUD__RecordTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Required --></label>
+        <name>FieloCRUD__Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Search Enabled --></label>
+        <name>FieloCRUD__SearchEnabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Define which columns (field API names separated by comma) are going to be display in the search table and in which order. --></help>
+        <label><!-- Search FieldSet --></label>
+        <name>FieloCRUD__SearchFieldSet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Complete with the API name of the lookup field that references the Object that is going to be query. --></help>
+        <label><!-- Searchable Field API Name --></label>
+        <name>FieloCRUD__SearchableFieldAPIName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Define by which fields (API names separated by comma) the user can search records for. The fields must be related to the object obtained through the &quot;Searchable Field API Name&quot; field. --></help>
+        <label><!-- Searchable Fields API Name --></label>
+        <name>FieloCRUD__SearchableFieldsAPIName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show delete --></label>
+        <name>FieloCRUD__ShowDelete__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies the tab order of the field (when the &quot;tab&quot; button is used for navigating). --></help>
+        <label><!-- Tab Index --></label>
+        <name>FieloCRUD__TabIndex__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upload Files Automatically --></label>
+        <name>FieloCRUD__UploadFilesAutomatically__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visibility --></label>
+        <name>FieloCRUD__Visibility__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edit</masterLabel>
+            <translation><!-- Edit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>View</masterLabel>
+            <translation><!-- View --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Complete with the number of pixels or percentage. Ex &quot;100px&quot;, &quot;100%&quot; --></help>
+        <label><!-- Width --></label>
+        <name>FieloCRUD__Width__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the range of years for the picklist with the format XXXX:YYYY --></help>
+        <label><!-- Year Range --></label>
+        <name>FieloCRUD__YearRange__c</name>
+    </fields>
+    <layouts>
+        <layout>Blank Space</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Custom Component Field</layout>
+        <sections>
+            <label><!-- Advance --></label>
+            <section>Advance</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Field</layout>
+        <sections>
+            <label><!-- (Only for Date Fields) --></label>
+            <section>(Only for Date Fields)</section>
+        </sections>
+        <sections>
+            <label><!-- (Only for Lookup Fields) --></label>
+            <section>(Only for Lookup Fields)</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>File Upload</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>HTML Content</layout>
+        <sections>
+            <label><!-- Content --></label>
+            <section>Content</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Related Details</layout>
+        <sections>
+            <label><!-- &apos;Add Details&apos; Table Configuration --></label>
+            <section>&apos;Add Details&apos; Table Configuration</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Other --></label>
+            <section>Other</section>
+        </sections>
+        <sections>
+            <label><!-- Search Configuration --></label>
+            <section>Search Configuration</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>iFrame</layout>
+        <sections>
+            <label><!-- Advanced (manage iframe styling) --></label>
+            <section>Advanced (manage iframe styling)</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Blank Space --></label>
+        <name>BlankSpace</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Custom Component Field --></label>
+        <name>CustomComponentField</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Field --></label>
+        <name>Field</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- File Upload --></label>
+        <name>FileUpload</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- HTML Content --></label>
+        <name>HTMLContent</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Related Details --></label>
+        <name>RelatedDetails</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- iFrame --></label>
+        <name>iFrame</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You must include a value (ex. name) when field type is &quot;Lookup&quot;. --></errorMessage>
+        <name>FieloCRUD__PageComponent_FieldToShowMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Required and Read Only fields cannot be checked at the same time. --></errorMessage>
+        <name>FieloCRUD__PageComponent_RequiredReadOnly</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Field &quot;Where Condition&quot; can only be completed when field type is &quot;Lookup&quot; or record type is &quot;Related Details&quot;. --></errorMessage>
+        <name>FieloCRUD__PageComponent_WhereOnlyInLookupFields</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ReorderComponents --></label>
+        <name>FieloCRUD__ReorderComponents</name>
+    </webLinks>
+</CustomObjectTranslation>

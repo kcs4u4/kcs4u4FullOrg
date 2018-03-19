@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>DX_API</fullName>
+        <categories>API URL - http://103.211.39.40:8589/rabit/rabitservices?wsdl</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DX_API</shortDescription>
+        <value>http://103.211.39.40:8590/rabit/rabitservices?wsdl</value>
+    </labels>
+    <labels>
+        <fullName>DX_API2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DX_API2</shortDescription>
+        <value>http://103.211.39.40:8589/rabit/rabitservices?wsdl</value>
+    </labels>
+    <labels>
+        <fullName>DX_CallbackURL</fullName>
+        <categories>connected app details</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DX_CallbackURL</shortDescription>
+        <value>https://dx-war-dev-ed.lightning.force.com/one/one.app</value>
+    </labels>
+    <labels>
+        <fullName>DX_ClientId</fullName>
+        <categories>connected app details</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DX_ClientId</shortDescription>
+        <value>3MVG9d8..z.hDcPLKhdv4nBvYennLRz7oaJgYAQkeidSxL.Jycc2jPtZFPY9.KHcMS7CSJ8SGpdzdWgdZT__N</value>
+    </labels>
+    <labels>
+        <fullName>aaaabcd</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>aaaabcd</shortDescription>
+        <value>{!Branch3__c.Branch_Code3__c}</value>
+    </labels>
+</CustomLabels>

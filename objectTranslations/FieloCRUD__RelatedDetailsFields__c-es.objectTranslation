@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Field API Name --></label>
+        <name>FieloCRUD__FieldAPIName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Define the field API name (from the related object) that will be displayed on the picklist. --></help>
+        <label><!-- Field To Show In Picklist --></label>
+        <name>FieloCRUD__FieldLookupFieldToShow__c</name>
+    </fields>
+    <fields>
+        <help><!-- Define your WHERE condition clause for the object related through the lookup. You may include fields; ORDER BY and LIMIT clauses; and variables for Member Id, Account Id, Contact Id, UserId (ex. Member__c =: memberId) --></help>
+        <label><!-- Where Condition --></label>
+        <name>FieloCRUD__FieldLookupWhereCondition__c</name>
+    </fields>
+    <fields>
+        <help><!-- Este campo se completa automáticamente por trigger --></help>
+        <label><!-- Field Type --></label>
+        <name>FieloCRUD__FieldType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>FieloCRUD__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Read Only --></label>
+        <name>FieloCRUD__ReadOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Detail Component --></label>
+        <name>FieloCRUD__RelatedDetailComponent__c</name>
+        <relationshipLabel><!-- Related Details Fields --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Required --></label>
+        <name>FieloCRUD__Required__c</name>
+    </fields>
+    <layouts>
+        <layout>Standard Related Details Field Layout</layout>
+        <sections>
+            <label><!-- (Only for Lookup Fields) --></label>
+            <section>(Only for Lookup Fields)</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Standard Field --></label>
+        <name>StandardField</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- ReorderRelatedDetailFields --></label>
+        <name>FieloCRUD__ReorderRelatedDetailFields</name>
+    </webLinks>
+</CustomObjectTranslation>

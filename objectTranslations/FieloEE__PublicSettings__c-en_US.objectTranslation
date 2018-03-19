@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Reward Delivery Class --></label>
+        <name>FieloCH__RewardDeliveryClass__c</name>
+    </fields>
+    <fields>
+        <label><!-- Optimized Member Query --></label>
+        <name>FieloEE__ActiveContactsCalculation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Challenges Prefix --></label>
+        <name>FieloEE__ChallengesPrefix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Preview Page --></label>
+        <name>FieloEE__CustomPagePreview__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Page --></label>
+        <name>FieloEE__CustomPage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Editor Toolbar Extra --></label>
+        <name>FieloEE__EditorToolbarExtra__c</name>
+    </fields>
+    <fields>
+        <label><!-- Editor Toolbar --></label>
+        <name>FieloEE__EditorToolbar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exclude Banner Fields --></label>
+        <name>FieloEE__ExcludeBannerFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exclude Component Fields --></label>
+        <name>FieloEE__ExcludeComponentFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exclude News Fields --></label>
+        <name>FieloEE__ExcludeNewsFields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Optimized Component Query --></label>
+        <name>FieloEE__Facebook__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fielo Version --></label>
+        <name>FieloEE__FieloVersion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Optimized Program Query --></label>
+        <name>FieloEE__Google__c</name>
+    </fields>
+    <fields>
+        <help><!-- API name of the object to save Images using the &quot;Photo Upload&quot; component (for example &quot;Attachment&quot; or &quot;Document&quot;). --></help>
+        <label><!-- Image Object --></label>
+        <name>FieloEE__ImageObject__c</name>
+    </fields>
+    <fields>
+        <help><!-- Instance (server) used by the Org (Backend) --></help>
+        <label><!-- Instance --></label>
+        <name>FieloEE__Instance__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Linkedin --></label>
+        <name>FieloEE__Linkedin__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Member Code Class --></label>
+        <name>FieloEE__MemberCodeClass__c</name>
+    </fields>
+    <fields>
+        <label><!-- Menu Languages --></label>
+        <name>FieloEE__MenuLanguages__c</name>
+    </fields>
+    <fields>
+        <label><!-- Menu Member Filter Field --></label>
+        <name>FieloEE__MenuMemberFilter__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field contains the Id of the Organization-Wide Email Address from where you want to set the sender display name and sender email. --></help>
+        <label><!-- Google Analytics code --></label>
+        <name>FieloEE__NewsView__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Prefix --></label>
+        <name>FieloEE__PackagePrefix__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Actual Point Cost --></label>
+        <name>FieloEE__PointCost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Organization-Wide Email Address Id --></label>
+        <name>FieloEE__RewardView__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Search Reward Menu --></label>
+        <name>FieloEE__SearchRewardMenu__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable email for new user --></label>
+        <name>FieloEE__ShowVoucherCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- URL of the site used to send the links to continue the registration process --></help>
+        <label><!-- zz_deprecated_Site URL --></label>
+        <name>FieloEE__SiteURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Twitter --></label>
+        <name>FieloEE__Twitter__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_User Creation Class --></label>
+        <name>FieloEE__UserCreationClass__c</name>
+    </fields>
+</CustomObjectTranslation>

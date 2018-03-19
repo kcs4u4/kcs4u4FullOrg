@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Member Portal --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Member Portal --></value>
+    </caseValues>
+    <fields>
+        <label><!-- zz_deprecated_Background Attr Mobile --></label>
+        <name>FieloEE__BackgroundAttributeMobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Background attr Non Log --></label>
+        <name>FieloEE__BackgroundAttributeNonLog__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Background attribute --></label>
+        <name>FieloEE__BackgroundAttribute__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Background Id Mobile --></label>
+        <name>FieloEE__BackgroundIdMobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Background Id Non Log --></label>
+        <name>FieloEE__BackgroundIdNonLog__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_BackgroundId --></label>
+        <name>FieloEE__BackgroundId__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_CSS File --></label>
+        <name>FieloEE__CSSFile__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Color01 --></label>
+        <name>FieloEE__Color01__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Color02 --></label>
+        <name>FieloEE__Color02__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Color03 --></label>
+        <name>FieloEE__Color03__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Color04 --></label>
+        <name>FieloEE__Color04__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Color05 --></label>
+        <name>FieloEE__Color05__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Color06 --></label>
+        <name>FieloEE__Color06__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Color07 --></label>
+        <name>FieloEE__Color07__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Color08 --></label>
+        <name>FieloEE__Color08__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Color09 --></label>
+        <name>FieloEE__Color09__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Color10 --></label>
+        <name>FieloEE__Color10__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_ColorFont01 --></label>
+        <name>FieloEE__ColorFont01__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_ColorFont02 --></label>
+        <name>FieloEE__ColorFont02__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_ColorFont03 --></label>
+        <name>FieloEE__ColorFont03__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_ColorFont04 --></label>
+        <name>FieloEE__ColorFont04__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_ColorFont05 --></label>
+        <name>FieloEE__ColorFont05__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_ColorFont06 --></label>
+        <name>FieloEE__ColorFont06__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_ColorFont07 --></label>
+        <name>FieloEE__ColorFont07__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_ColorFont08 --></label>
+        <name>FieloEE__ColorFont08__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_ColorFont09 --></label>
+        <name>FieloEE__ColorFont09__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_ColorFont10 --></label>
+        <name>FieloEE__ColorFont10__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Color Font Mobile --></label>
+        <name>FieloEE__ColorFontMobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Font --></label>
+        <name>FieloEE__Font__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Logo Mobile --></label>
+        <name>FieloEE__LogoMobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Logo --></label>
+        <name>FieloEE__Logo__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Main Color Mobile --></label>
+        <name>FieloEE__MainColorMobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Title --></label>
+        <name>FieloEE__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_headerBackgroundId --></label>
+        <name>FieloEE__headerBackgroundId__c</name>
+    </fields>
+    <gender><!-- Masculine --></gender>
+</CustomObjectTranslation>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Comment --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Comment --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Abuse Description --></label>
+        <name>FieloEE__AbuseDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Abuse Reporter --></label>
+        <name>FieloEE__AbuseReporter__c</name>
+        <relationshipLabel><!-- Comment (Abuse Reporter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter this comment&apos;s text. --></help>
+        <label><!-- Body --></label>
+        <name>FieloEE__Body__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the name of the member who made this commment. --></help>
+        <label><!-- Member --></label>
+        <name>FieloEE__Member__c</name>
+        <relationshipLabel><!-- Comment (Member) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Parent Id --></label>
+        <name>FieloEE__ParentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>FieloEE__Status__c</name>
+        <picklistValues>
+            <masterLabel>Abuse</masterLabel>
+            <translation>Abuso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ok</masterLabel>
+            <translation>OK</translation>
+        </picklistValues>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Comments Name --></nameFieldLabel>
+</CustomObjectTranslation>

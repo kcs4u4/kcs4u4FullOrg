@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Check for borders on all sides of the table and cells --></help>
+        <label><!-- Bordered table --></label>
+        <name>FieloCRUD__BorderedTable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check to make tables more compact by cutting cell padding in half --></help>
+        <label><!-- Condensed table --></label>
+        <name>FieloCRUD__CondensedTable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Define by which date or date/time field (API name) the user can filter records for. If this field is null then date filter functionality will be hidden. --></help>
+        <label><!-- Date Filter --></label>
+        <name>FieloCRUD__DateFilter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Records Per Page --></label>
+        <name>FieloCRUD__DisplayRecordsPerPage__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottom</masterLabel>
+            <translation><!-- Bottom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top</masterLabel>
+            <translation><!-- Top --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Define which columns (field API names separated by comma) are going to be display and in which order. You may include any field from the related object setting but not fields from a relationship. --></help>
+        <label><!-- FieldSet --></label>
+        <name>FieloCRUD__FieldSet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this to hide the list view&apos;s header --></help>
+        <label><!-- Hide Header --></label>
+        <name>FieloCRUD__HideHeader__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide Search --></label>
+        <name>FieloCRUD__HideSearch__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check to make tables more compact by cutting cell padding in half --></help>
+        <label><!-- Hover rows --></label>
+        <name>FieloCRUD__HoverRows__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Date Filter From --></label>
+        <name>FieloCRUD__LabelDateFilterFrom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Date Filter Search Button --></label>
+        <name>FieloCRUD__LabelDateFilterSearchButton__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Date Filter To --></label>
+        <name>FieloCRUD__LabelDateFilterTo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Empty List --></label>
+        <name>FieloCRUD__LabelEmptyList__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label New Action --></label>
+        <name>FieloCRUD__LabelNewAction__c</name>
+    </fields>
+    <fields>
+        <help><!-- The View name label replaces the view name within the related views picklist --></help>
+        <label><!-- Label View Name --></label>
+        <name>FieloCRUD__LabelViewName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Navigation --></label>
+        <name>FieloCRUD__Navigation__c</name>
+        <picklistValues>
+            <masterLabel>Navigate</masterLabel>
+            <translation><!-- Navigate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No page</masterLabel>
+            <translation><!-- No page --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Target</masterLabel>
+            <translation><!-- Target --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Object API Name --></label>
+        <name>FieloCRUD__ObjectAPIName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Settings --></label>
+        <name>FieloCRUD__ObjectSettings__c</name>
+        <relationshipLabel><!-- List Views --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Object --></label>
+        <name>FieloCRUD__Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>FieloCRUD__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Page Layout --></label>
+        <name>FieloCRUD__PageLayout__c</name>
+        <relationshipLabel><!-- Related Lists --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Page Size --></label>
+        <name>FieloCRUD__PageSize__c</name>
+    </fields>
+    <fields>
+        <help><!-- Complete with the API name of the lookup field that relates the object defined on &quot;Related List Object API Name&quot; with the object setting of the page layout. --></help>
+        <label><!-- Parent Field --></label>
+        <name>FieloCRUD__ParentField__c</name>
+    </fields>
+    <fields>
+        <label><!-- VF Proxy Date From --></label>
+        <name>FieloCRUD__ProxyDateFrom__c</name>
+    </fields>
+    <fields>
+        <label><!-- VF Proxy Date To --></label>
+        <name>FieloCRUD__ProxyDateTo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type Name --></label>
+        <name>FieloCRUD__RecordTypeName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Complete with the Object API name of the records that you want to display on the related list. --></help>
+        <label><!-- Related List Object API Name --></label>
+        <name>FieloCRUD__RelatedListObjectAPIName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scroll Rows --></label>
+        <name>FieloCRUD__ScrollRows__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scroll Table --></label>
+        <name>FieloCRUD__ScrollTable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Define by which fields (API names separated by comma) the user can search records for. If this field is null then search functionality will be hidden. --></help>
+        <label><!-- Search Fields --></label>
+        <name>FieloCRUD__SearchFields__c</name>
+    </fields>
+    <fields>
+        <help><!-- The site name replaces the object plural name (for related lists). --></help>
+        <label><!-- Site Name --></label>
+        <name>FieloCRUD__SiteName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check to add zebra-striping to any table row --></help>
+        <label><!-- Striped rows --></label>
+        <name>FieloCRUD__StripedRows__c</name>
+    </fields>
+    <fields>
+        <help><!-- The view name replaces the list name within the related views picklist. --></help>
+        <label><!-- View Name --></label>
+        <name>FieloCRUD__ViewName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Define your WHERE condition clause. You may include fields; ORDER BY and LIMIT clauses; and variables for Member Id, Account Id, Contact Id, UserId (ex. Member__c =: memberId) --></help>
+        <label><!-- Where Condition --></label>
+        <name>FieloCRUD__WhereCondition__c</name>
+    </fields>
+    <layouts>
+        <layout>Attachment</layout>
+        <sections>
+            <label><!-- CRUD Actions (Create Read Update Delete) --></label>
+            <section>CRUD Actions (Create Read Update Delete)</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Table Configuration --></label>
+            <section>Table Configuration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>List View</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dataset --></label>
+            <section>Dataset</section>
+        </sections>
+        <sections>
+            <label><!-- Labels --></label>
+            <section>Labels</section>
+        </sections>
+        <sections>
+            <label><!-- Other Functionalities --></label>
+            <section>Other Functionalities</section>
+        </sections>
+        <sections>
+            <label><!-- Table Configuration --></label>
+            <section>Table Configuration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Related List</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Dataset --></label>
+            <section>Dataset</section>
+        </sections>
+        <sections>
+            <label><!-- Labels --></label>
+            <section>Labels</section>
+        </sections>
+        <sections>
+            <label><!-- Other Functionalities --></label>
+            <section>Other Functionalities</section>
+        </sections>
+        <sections>
+            <label><!-- Table Configuration --></label>
+            <section>Table Configuration</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Attachment --></label>
+        <name>Attachment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- List View --></label>
+        <name>ListView</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Related List --></label>
+        <name>RelatedList</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- In order to set scroll rows, scroll table must be checked --></errorMessage>
+        <name>FieloCRUD__Fielo_ListView_ScrollRowsCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must include an object setting for Lists with &quot;List View&quot; record type. --></errorMessage>
+        <name>FieloCRUD__ListView_ObjectSettingMandatory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Page Size must be between 1 and 100. --></errorMessage>
+        <name>FieloCRUD__ListView_PageSizeValidValues</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When &quot;Manage Records Per Page&quot; is checked, the only valid values for page size are: 10, 25, 50 and 100. --></errorMessage>
+        <name>FieloCRUD__ListView_PageSizeValidValuesWithManageRe</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AddAttachmentsList --></label>
+        <name>FieloCRUD__AddAttachmentsList</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewListView --></label>
+        <name>FieloCRUD__NewListView</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewRelatedList --></label>
+        <name>FieloCRUD__NewRelatedList</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ReorderRelatedLists --></label>
+        <name>FieloCRUD__ReorderRelatedLists</name>
+    </webLinks>
+</CustomObjectTranslation>

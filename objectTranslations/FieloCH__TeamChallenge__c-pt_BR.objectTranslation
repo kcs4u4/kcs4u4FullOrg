@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Team Challenge --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Team Challenge --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Challenge --></label>
+        <name>FieloCH__Challenge__c</name>
+        <relationshipLabel><!-- Teams Challenge --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>FieloCH__Status__c</name>
+        <picklistValues>
+            <masterLabel>Accomplished</masterLabel>
+            <translation>Realizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Accomplished</masterLabel>
+            <translation>Não realizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsubscribe</masterLabel>
+            <translation>descadastrar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>FieloCH__Team__c</name>
+        <relationshipLabel><!-- Challenges --></relationshipLabel>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+</CustomObjectTranslation>

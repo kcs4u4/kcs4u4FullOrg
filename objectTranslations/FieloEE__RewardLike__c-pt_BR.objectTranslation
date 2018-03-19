@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- zz_deprecated_Reward Like --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- zz_deprecated_Reward Like --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Member --></label>
+        <name>FieloEE__Member__c</name>
+        <relationshipLabel><!-- RewardLike --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reward --></label>
+        <name>FieloEE__Reward__c</name>
+        <relationshipLabel><!-- Reward Likes --></relationshipLabel>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- PrizeReview Name --></nameFieldLabel>
+</CustomObjectTranslation>

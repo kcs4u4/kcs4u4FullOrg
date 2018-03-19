@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Challenge Reward --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Challenge Reward --></value>
+    </caseValues>
+    <fields>
+        <label><!-- AttachmentId --></label>
+        <name>FieloCH__AttachmentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Badge --></label>
+        <name>FieloCH__Badge__c</name>
+        <relationshipLabel><!-- Challenge Rewards --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Boolean Value --></label>
+        <name>FieloCH__BooleanValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Challenge --></label>
+        <name>FieloCH__Challenge__c</name>
+        <relationshipLabel><!-- Rewards --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Value --></label>
+        <name>FieloCH__DateValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>FieloCH__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field To Update --></label>
+        <name>FieloCH__FieldToUpdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Type --></label>
+        <name>FieloCH__FieldType__c</name>
+        <picklistValues>
+            <masterLabel>Boolean</masterLabel>
+            <translation><!-- Boolean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Date</masterLabel>
+            <translation>Fecha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation>Lista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number</masterLabel>
+            <translation>Numero</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text</masterLabel>
+            <translation>Texto</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- From --></label>
+        <name>FieloCH__From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Limit --></label>
+        <name>FieloCH__Limit__c</name>
+    </fields>
+    <fields>
+        <label><!-- ListValue --></label>
+        <name>FieloCH__ListValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logical Expression --></label>
+        <name>FieloCH__LogicalExpression__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Value --></label>
+        <name>FieloCH__NumberValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Positions --></label>
+        <name>FieloCH__PositionText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Position --></label>
+        <name>FieloCH__Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reward --></label>
+        <lookupFilter>
+            <errorMessage><!-- Reward does not exist or it is not an instant reward --></errorMessage>
+        </lookupFilter>
+        <name>FieloCH__Reward__c</name>
+        <relationshipLabel><!-- Challenge Rewards --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>FieloCH__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- To --></label>
+        <name>FieloCH__To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Points --></label>
+        <name>FieloCH__TransactionPoint__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Type --></label>
+        <name>FieloCH__TransactionType__c</name>
+        <picklistValues>
+            <masterLabel>Adjust</masterLabel>
+            <translation>Ajuste</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>FieloCH__Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom reward --></label>
+        <name>FieloCH__WithCustomReward__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Challenge Reward Layout</layout>
+        <sections>
+            <label>Enlaces personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Premio instantáneo</label>
+            <section>Instant Reward</section>
+        </sections>
+        <sections>
+            <label>Actualizar Participante</label>
+            <section>Member Update</section>
+        </sections>
+        <sections>
+            <label>Transacción del Premio</label>
+            <section>Transaction reward</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Cannot modified the Reward if the Challenge is Active. --></errorMessage>
+        <name>FieloCH__Edit_Reward</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Reward does not belong to the same Program as the Challenge. --></errorMessage>
+        <name>FieloCH__Reward_Program_Validation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ManagePhoto --></label>
+        <name>FieloCH__ManagePhoto</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ManageRewards --></label>
+        <name>FieloCH__ManageRewards</name>
+    </webLinks>
+</CustomObjectTranslation>

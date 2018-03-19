@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Challenge Tag --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Challenge Tag --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Challenge --></label>
+        <name>FieloCH__Challenge__c</name>
+        <relationshipLabel><!-- Tags --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>FieloCH__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tag --></label>
+        <name>FieloCH__Tag__c</name>
+        <relationshipLabel><!-- Challenge Tags --></relationshipLabel>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Challenge Tag Layout</layout>
+        <sections>
+            <label>Enlaces personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Challenge Tag Name --></nameFieldLabel>
+    <webLinks>
+        <label><!-- AddTag --></label>
+        <name>FieloCH__AddTag</name>
+    </webLinks>
+</CustomObjectTranslation>

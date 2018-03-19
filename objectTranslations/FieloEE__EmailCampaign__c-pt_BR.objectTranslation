@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ação de Marketing</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ações de Marketing</value>
+    </caseValues>
+    <fields>
+        <label><!-- zz_deprecated_Date Schedule --></label>
+        <name>FieloEE__DateSchedule__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Delivery Options --></label>
+        <name>FieloEE__DeliveryOptions__c</name>
+        <picklistValues>
+            <masterLabel>Now</masterLabel>
+            <translation>Agora</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule</masterLabel>
+            <translation>Agendamento</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Filter Member --></label>
+        <name>FieloEE__FilterMember__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Id --></label>
+        <name>FieloEE__JobId__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Job Link --></label>
+        <name>FieloEE__JobLink__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Send by --></label>
+        <name>FieloEE__SendBy__c</name>
+        <picklistValues>
+            <masterLabel>Fielo</masterLabel>
+            <translation><!-- Fielo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Status --></label>
+        <name>FieloEE__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Ativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation>Cancelar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Envoy</masterLabel>
+            <translation>Enviado</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Template --></label>
+        <name>FieloEE__TemplateId__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Email Campaign Layout</layout>
+        <sections>
+            <label>Links customizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nome da ação</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Scheduled Date is required --></errorMessage>
+        <name>FieloEE__ScheduleDateRequiered</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The scheduled date cannot be less than today --></errorMessage>
+        <name>FieloEE__Schedule_Date</name>
+    </validationRules>
+</CustomObjectTranslation>

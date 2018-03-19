@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Redemption Item --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Redemption Item --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Range of Code --></label>
+        <name>FieloEE__CodeRange__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>FieloEE__Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivered Date --></label>
+        <name>FieloEE__DeliveredDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>FieloEE__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- ExpirationDate --></label>
+        <name>FieloEE__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Points --></label>
+        <name>FieloEE__ItemPoints__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member Name --></label>
+        <name>FieloEE__MemberName__c</name>
+    </fields>
+    <fields>
+        <label><!-- NetPoints --></label>
+        <name>FieloEE__NetPoints__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Points --></label>
+        <name>FieloEE__OriginalPoints__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>FieloEE__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Redemption --></label>
+        <name>FieloEE__Redemption__c</name>
+        <relationshipLabel><!-- Redemption Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reward Item Price --></label>
+        <name>FieloEE__RewardItemPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reward Item --></label>
+        <name>FieloEE__RewardItem__c</name>
+        <relationshipLabel><!-- Redemption Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reward Name --></label>
+        <name>FieloEE__RewardName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reward --></label>
+        <name>FieloEE__Reward__c</name>
+        <relationshipLabel><!-- Redemption Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>FieloEE__Status__c</name>
+        <picklistValues>
+            <masterLabel>Delivered</masterLabel>
+            <translation>Entregado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation>Expirado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>Pendiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready</masterLabel>
+            <translation>Listo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reverted</masterLabel>
+            <translation>Revertido</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Stock Mode --></label>
+        <name>FieloEE__StockMode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Code --></label>
+        <name>FieloEE__UniqueCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Voucher Link --></label>
+        <name>FieloEE__VoucherLink__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instant Redemption --></label>
+        <name>FieloEE__isInstantRedemption__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Formato de Order Item</layout>
+        <sections>
+            <label>Enlaces personalizados</label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato de Redemption Item</layout>
+        <sections>
+            <label>Enlaces personalizados</label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Number --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- The quantity must be greater than 0 --></errorMessage>
+        <name>FieloEE__QuantityGreaterThanZero</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- DeliverItems --></label>
+        <name>FieloEE__DeliverItems</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RevertItems --></label>
+        <name>FieloEE__RevertItems</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RevertRedemptionItem --></label>
+        <name>FieloEE__RevertRedemptionItem</name>
+    </webLinks>
+</CustomObjectTranslation>

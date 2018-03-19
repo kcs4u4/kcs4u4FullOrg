@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Participante</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Participantes</value>
+    </caseValues>
+    <fields>
+        <help><!-- Enter the age of the member. --></help>
+        <label><!-- Age --></label>
+        <name>FieloEE__Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agreement (Read Only) --></label>
+        <name>FieloEE__AgreementReadOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agreement --></label>
+        <name>FieloEE__Agreement__c</name>
+        <relationshipLabel><!-- Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approved (Read Only) --></label>
+        <name>FieloEE__ApprovedReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- If you have an approval process for your members registration, the approval status is reflected in this field. If you do not have an approval process, the status will be always “Yes”. --></help>
+        <label><!-- Approved --></label>
+        <name>FieloEE__Approved__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the member&apos;s birth date. --></help>
+        <label><!-- Birth Date --></label>
+        <name>FieloEE__Birthdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Blocked --></label>
+        <name>FieloEE__Blocked__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the city where the member lives. --></help>
+        <label><!-- City --></label>
+        <name>FieloEE__City__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the country where the member lives. --></help>
+        <label><!-- Country --></label>
+        <name>FieloEE__Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Transaction (Days) --></label>
+        <name>FieloEE__DaysLastTransaction__c</name>
+    </fields>
+    <fields>
+        <help><!-- If you do not enter an email account, the system will create one of the form &quot;name.lastname@fielo.com&quot;. --></help>
+        <label><!-- E-Mail --></label>
+        <name>FieloEE__Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enabled Status (Read Only) --></label>
+        <name>FieloEE__EnabledStatusReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- All members are “Enabled” by default. When members are “Not enabled” they no longer participate of the program but they still remain members. --></help>
+        <label><!-- Enabled --></label>
+        <name>FieloEE__Enabled__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the first name of this member. --></help>
+        <label><!-- First Name --></label>
+        <name>FieloEE__FirstName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the gender for this member. --></help>
+        <label><!-- Gender --></label>
+        <name>FieloEE__Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation>Feminino</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation>Masculino</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Here you can see the ID number of this member. --></help>
+        <label><!-- Identification Number --></label>
+        <name>FieloEE__IdentificationCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pick the type of personal document of this member. --></help>
+        <label><!-- Identification Type --></label>
+        <name>FieloEE__IdentificationType__c</name>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passport</masterLabel>
+            <translation>Passaporte</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Identification --></label>
+        <name>FieloEE__Identification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>FieloEE__IsActive__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the last name of this member. --></help>
+        <label><!-- Last Name --></label>
+        <name>FieloEE__LastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Transaction Date (Read Only) --></label>
+        <name>FieloEE__LastTransactionDateReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the date of the last transaction performed by this member. --></help>
+        <label><!-- Last Transaction Date --></label>
+        <name>FieloEE__LastTransactionDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Level (Read Only) --></label>
+        <name>FieloEE__LevelReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Here you can see to what level the member belongs. --></help>
+        <label><!-- Level --></label>
+        <name>FieloEE__Level__c</name>
+        <relationshipLabel><!-- Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Loyalty Age --></label>
+        <name>FieloEE__LoyaltyAge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Points Average --></label>
+        <name>FieloEE__MediaPoints__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member Code (Read Only) --></label>
+        <name>FieloEE__MemberCodeReadOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Member Code --></label>
+        <name>FieloEE__MemberCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the cell phone of the member. --></help>
+        <label><!-- Mobile --></label>
+        <name>FieloEE__MobilePhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>FieloEE__Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the neighborhood where the member lives. --></help>
+        <label><!-- Neighborhood --></label>
+        <name>FieloEE__Neighborhood__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Net Points --></label>
+        <name>FieloEE__NetPoints__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Operator Code --></label>
+        <name>FieloEE__OperatorCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Operator Password --></label>
+        <name>FieloEE__OperatorPassword__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the member&apos;s phone number. --></help>
+        <label><!-- Phone --></label>
+        <name>FieloEE__Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Points (Read Only) --></label>
+        <name>FieloEE__PointsReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Here you can see the number of points of this member. --></help>
+        <label><!-- Points --></label>
+        <name>FieloEE__Points__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Preference --></label>
+        <name>FieloEE__Preference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile Completeness (Read Only) --></label>
+        <name>FieloEE__ProfileCompletenessReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Here you can see how complete is the member&apos;s profile. --></help>
+        <label><!-- Profile completeness --></label>
+        <name>FieloEE__ProfileCompleteness__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the program to which the member belongs. --></help>
+        <label><!-- Program --></label>
+        <name>FieloEE__Program__c</name>
+        <relationshipLabel><!-- Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Here you can see the percentage of points redeemed by the member. --></help>
+        <label><!-- Percent of Points Redeemed --></label>
+        <name>FieloEE__RedeemPointsPercent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referal Member (Read Only) --></label>
+        <name>FieloEE__ReferalMemberReadOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referal Member --></label>
+        <name>FieloEE__ReferalMember__c</name>
+        <relationshipLabel><!-- Members Referrals --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Members are “Registered” if they have created an user in the members&apos; portal. --></help>
+        <label><!-- Registered (Read Only) --></label>
+        <name>FieloEE__RegisteredReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Members are “Registered” if they have created an user in the members&apos; portal. --></help>
+        <label><!-- Registered --></label>
+        <name>FieloEE__Registered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date (Read Only) --></label>
+        <name>FieloEE__StartDateReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the date when the member registered in the program. --></help>
+        <label><!-- Start Date --></label>
+        <name>FieloEE__StartDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the state or province where the member lives. --></help>
+        <label><!-- State/Province --></label>
+        <name>FieloEE__State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loyalty Program Status --></label>
+        <name>FieloEE__Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the street where the member lives. --></help>
+        <label><!-- Street --></label>
+        <name>FieloEE__Street__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the total of points redeemed by this member. --></help>
+        <label><!-- Total Points Redeemed --></label>
+        <name>FieloEE__TotalRedeemPoints__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Value Redeemed --></label>
+        <name>FieloEE__TotalRedeemValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the number of redemption orders redeemed by this member. --></help>
+        <label><!-- Total Orders Redeemed --></label>
+        <name>FieloEE__TotalRedeem__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the number of transactions performed by this member. --></help>
+        <label><!-- Total Transactions --></label>
+        <name>FieloEE__TotalTransactions__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Total Value --></label>
+        <name>FieloEE__TotalValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Type --></label>
+        <name>FieloEE__Type__c</name>
+        <picklistValues>
+            <masterLabel>Member</masterLabel>
+            <translation>Participante</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- User (Read Only) --></label>
+        <name>FieloEE__UserReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the member&apos;s user or handle in the member&apos;s portal. --></help>
+        <label><!-- User --></label>
+        <name>FieloEE__User__c</name>
+        <relationshipLabel><!-- Member --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter the member&apos;s ZIP code. --></help>
+        <label><!-- Zip/Postal Code --></label>
+        <name>FieloEE__ZipCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the ID of this member&apos;s image. --></help>
+        <label><!-- imageId --></label>
+        <name>FieloEE__imageId__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Member Layout</layout>
+        <sections>
+            <label>Endereço</label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Painel de Destaque</label>
+            <section>HighLight Panel</section>
+        </sections>
+        <sections>
+            <label>cumprimento</label>
+            <section>Performance</section>
+        </sections>
+        <sections>
+            <label>Informações de usuário do Portal</label>
+            <section>Portal User Information</section>
+        </sections>
+        <sections>
+            <label>Informação do programa</label>
+            <section>Program Information</section>
+        </sections>
+        <sections>
+            <label><!-- Segments --></label>
+            <section>Segments</section>
+        </sections>
+        <sections>
+            <label>Estado</label>
+            <section>Status</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Participante</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- Birth date cannot be greater than today --></errorMessage>
+        <name>FieloEE__BirthDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- invalid CPF  999.999.999-99
+Ex.: 478.497.338-94 --></errorMessage>
+        <name>FieloEE__CPF_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Is not possible to modify the associated Program --></errorMessage>
+        <name>FieloEE__ModifyProgram</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The member code cannot be modified --></errorMessage>
+        <name>FieloEE__Modify_Member_Code</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Operator Code and Operator password is required --></errorMessage>
+        <name>FieloEE__Operator_Password</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must complete Identification type and Identification Number or neither of both --></errorMessage>
+        <name>FieloEE__RequiredCode</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- LoginAs --></label>
+        <name>FieloEE__LoginAs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RedeemPoints --></label>
+        <name>FieloEE__RedeemPoints</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Reset_Password --></label>
+        <name>FieloEE__Reset_Password</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SearchVouchers --></label>
+        <name>FieloEE__SearchVouchers</name>
+    </webLinks>
+</CustomObjectTranslation>

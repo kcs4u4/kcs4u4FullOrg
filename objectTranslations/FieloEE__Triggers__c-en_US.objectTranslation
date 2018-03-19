@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Member --></label>
+        <name>FieloEE__Member__c</name>
+    </fields>
+    <fields>
+        <label><!-- Redemption Item --></label>
+        <name>FieloEE__RedemptionItem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Redemption --></label>
+        <name>FieloEE__Redemption__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction --></label>
+        <name>FieloEE__Transaction__c</name>
+    </fields>
+</CustomObjectTranslation>

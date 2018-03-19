@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- CSSClasses --></label>
+        <name>FieloEE__CSSClasses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Class --></label>
+        <name>FieloEE__Class__c</name>
+    </fields>
+    <fields>
+        <label><!-- Menu --></label>
+        <name>FieloEE__Menu__c</name>
+        <relationshipLabel><!-- Sections --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>FieloEE__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent --></label>
+        <name>FieloEE__Parent__c</name>
+        <relationshipLabel><!-- Sections --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>FieloEE__Type__c</name>
+    </fields>
+</CustomObjectTranslation>

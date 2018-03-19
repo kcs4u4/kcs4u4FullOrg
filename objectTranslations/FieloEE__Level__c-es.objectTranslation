@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Level --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Level --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Attachment Id --></label>
+        <name>FieloEE__AttachmentId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a description of this level. --></help>
+        <label><!-- Description --></label>
+        <name>FieloEE__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image --></label>
+        <name>FieloEE__Image__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box in order to make this level active. --></help>
+        <label><!-- is Active --></label>
+        <name>FieloEE__IsActive__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the hierarchical order for the levels. --></help>
+        <label><!-- Order --></label>
+        <name>FieloEE__Order__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the program to which this level belongs. --></help>
+        <label><!-- Program --></label>
+        <name>FieloEE__Program__c</name>
+        <relationshipLabel><!-- Levels --></relationshipLabel>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Level Layout</layout>
+        <sections>
+            <label>Enlaces personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Criterios del nivel</label>
+            <section>Level Criteria</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Level Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Active --></label>
+        <name>Active</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Inactive --></label>
+        <name>Inactive</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Is not possible to modify the associated Program --></errorMessage>
+        <name>FieloEE__ModifyProgram</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Active --></label>
+        <name>FieloEE__Active</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExportLevel --></label>
+        <name>FieloEE__ExportLevel</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Inactive --></label>
+        <name>FieloEE__Inactive</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ReorderLevels --></label>
+        <name>FieloEE__ReorderLevels</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RunBatch --></label>
+        <name>FieloEE__RunBatch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- UploadPhoto --></label>
+        <name>FieloEE__UploadPhoto</name>
+    </webLinks>
+</CustomObjectTranslation>

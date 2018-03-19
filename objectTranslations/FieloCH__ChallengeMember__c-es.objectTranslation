@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Challenge Member --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Challenge Member --></value>
+    </caseValues>
+    <fields>
+        <label><!-- AlternativeKey --></label>
+        <name>FieloCH__AlternativeKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Challenge --></label>
+        <name>FieloCH__Challenge2__c</name>
+        <relationshipLabel><!-- Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ChallengeReward --></label>
+        <name>FieloCH__ChallengeReward__c</name>
+        <relationshipLabel><!-- Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Counter --></label>
+        <name>FieloCH__Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member Email --></label>
+        <name>FieloCH__MemberEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member --></label>
+        <name>FieloCH__Member__c</name>
+        <relationshipLabel><!-- Challenge Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Mission Accomplished --></label>
+        <name>FieloCH__MissionAccomplished__c</name>
+    </fields>
+    <fields>
+        <label><!-- Position --></label>
+        <name>FieloCH__Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reward Description --></label>
+        <name>FieloCH__RewardDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>FieloCH__Status__c</name>
+        <picklistValues>
+            <masterLabel>Accomplished</masterLabel>
+            <translation>Cumplido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accomplished Pending</masterLabel>
+            <translation><!-- Accomplished Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Accomplished</masterLabel>
+            <translation>No Cumplido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsubscribe</masterLabel>
+            <translation>De subscribir</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>FieloCH__Team__c</name>
+        <relationshipLabel><!-- Challenge Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Value --></label>
+        <name>FieloCH__Value__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Challenge Member Layout</layout>
+        <sections>
+            <label>Enlaces personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- You must choose either a Member or a Team --></errorMessage>
+        <name>FieloCH__FillMemberOrTeam</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AddMembers --></label>
+        <name>FieloCH__AddMembers</name>
+    </webLinks>
+</CustomObjectTranslation>

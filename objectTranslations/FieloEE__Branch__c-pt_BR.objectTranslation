@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Filial</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Filiais</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>FieloEE__Account__c</name>
+        <relationshipLabel><!-- Branches --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter the city where your branch is located. --></help>
+        <label><!-- City --></label>
+        <name>FieloEE__City__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a code that will uniquely identify this branch. --></help>
+        <label><!-- Code --></label>
+        <name>FieloEE__Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the country where your branch is located. --></help>
+        <label><!-- Country --></label>
+        <name>FieloEE__Country__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field will autocomplete after you enter your branch address. --></help>
+        <label><!-- Latitude --></label>
+        <name>FieloEE__Latitude__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field will autocomplete after you enter your branch address. --></help>
+        <label><!-- Longitude --></label>
+        <name>FieloEE__Longitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>FieloEE__Owner__c</name>
+        <relationshipLabel><!-- Branch --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter the state or province where your branch is located. --></help>
+        <label><!-- State --></label>
+        <name>FieloEE__State__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the street where your branch is located. --></help>
+        <label><!-- Street --></label>
+        <name>FieloEE__Street__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the ZIP code for your branch. --></help>
+        <label><!-- Zip Code --></label>
+        <name>FieloEE__ZipCode__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Branch Layout</layout>
+        <sections>
+            <label>Coordenadas</label>
+            <section>Coordinates</section>
+        </sections>
+        <sections>
+            <label>Links customizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Localização</label>
+            <section>Location</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nome</nameFieldLabel>
+    <webLinks>
+        <label><!-- SetGeoLocation --></label>
+        <name>FieloEE__SetGeoLocation</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Categoria</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Categorias</value>
+    </caseValues>
+    <fields>
+        <label><!-- Attachment Id --></label>
+        <name>FieloEE__AttachmentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category Group Name --></label>
+        <name>FieloEE__Category_Group_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>FieloEE__Category__c</name>
+        <relationshipLabel><!-- Categories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>FieloEE__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>FieloEE__Program__c</name>
+        <relationshipLabel><!-- Category --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Category Group</layout>
+        <sections>
+            <label>Links customizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Layout de Categoria</layout>
+        <sections>
+            <label><!-- Category Photo --></label>
+            <section>Category Photo</section>
+        </sections>
+        <sections>
+            <label>Links customizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nome da Categoria</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Category Item --></label>
+        <name>CategoryItem</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Category Group --></label>
+        <name>Category_Group</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Back --></label>
+        <name>FieloEE__Back</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ReorderChildCategories --></label>
+        <name>FieloEE__ReorderChildCategories</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Reorder_Categories --></label>
+        <name>FieloEE__Reorder_Categories</name>
+    </webLinks>
+</CustomObjectTranslation>

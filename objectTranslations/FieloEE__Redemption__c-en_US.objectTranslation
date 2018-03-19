@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Description --></label>
+        <name>FieloEE__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member --></label>
+        <name>FieloEE__Member__c</name>
+        <relationshipLabel><!-- Redemptions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Indicate whether the redemption was made via the back end, the front end or a mobile device. --></help>
+        <label><!-- Origin --></label>
+        <name>FieloEE__Origin__c</name>
+        <picklistValues>
+            <masterLabel>BackEnd</masterLabel>
+            <translation><!-- BackEnd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FrontEnd</masterLabel>
+            <translation><!-- FrontEnd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Points Discount --></label>
+        <name>FieloEE__PointsDiscount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Points --></label>
+        <name>FieloEE__Points__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>FieloEE__Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed --></label>
+        <name>FieloEE__Processed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Here you can see the redemption status. Redemptions can be Open, Closed, Pending or Rejected. Press the Help button above for more info. --></help>
+        <label><!-- Status --></label>
+        <name>FieloEE__Status__c</name>
+        <picklistValues>
+            <masterLabel>Close</masterLabel>
+            <translation>Closed</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Items --></label>
+        <name>FieloEE__TotalItems__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction --></label>
+        <name>FieloEE__Transaction__c</name>
+        <relationshipLabel><!-- Redemptions --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Formato de Redemption</layout>
+        <sections>
+            <label>Custom Links</label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- The order is closed. --></errorMessage>
+        <name>FieloEE__Closed_Order</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- DeliverItems --></label>
+        <name>FieloEE__DeliverItems</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New --></label>
+        <name>FieloEE__New</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewRedemption --></label>
+        <name>FieloEE__NewRedemption</name>
+    </webLinks>
+</CustomObjectTranslation>

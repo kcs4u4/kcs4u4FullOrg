@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Define javascript functions that will be consumed by the “JS OnClick” button. --></help>
+        <label><!-- JS Code --></label>
+        <name>FieloCRUD__JSCode__c</name>
+    </fields>
+    <fields>
+        <help><!-- Defines the javascript code that will be executed when clicking the button. If further code is needed, define functions on “JS Code” field that can be consumed by this field. --></help>
+        <label><!-- JS OnClick --></label>
+        <name>FieloCRUD__JSOnClick__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>FieloCRUD__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Page Layout --></label>
+        <name>FieloCRUD__PageLayout__c</name>
+        <relationshipLabel><!-- Custom Buttons --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Defines the label of the button that will be displayed in the site. --></help>
+        <label><!-- Site Name --></label>
+        <name>FieloCRUD__SiteName__c</name>
+    </fields>
+    <layouts>
+        <layout>Page Custom Button</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Java Script Code --></label>
+            <section>Java Script Code</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- You cannot create custom buttons for page layouts with Profile record type. --></errorMessage>
+        <name>FieloCRUD__PageCustomButton_NotForFormLayout</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ReorderButtons --></label>
+        <name>FieloCRUD__ReorderButtons</name>
+    </webLinks>
+</CustomObjectTranslation>

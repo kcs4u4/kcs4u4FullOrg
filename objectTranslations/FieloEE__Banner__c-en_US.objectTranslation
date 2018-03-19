@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Enter the ID of the image. --></help>
+        <label><!-- Attachment Id --></label>
+        <name>FieloEE__AttachmentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>FieloEE__Category__c</name>
+        <relationshipLabel><!-- Banners --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Choose a name for this component. --></help>
+        <label><!-- Component --></label>
+        <name>FieloEE__Component__c</name>
+        <relationshipLabel><!-- Banners --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter a description for this banner. --></help>
+        <label><!-- Description --></label>
+        <name>FieloEE__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the starting date for showing this banner in the front end. --></help>
+        <label><!-- From --></label>
+        <name>FieloEE__From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Multi Segment --></label>
+        <name>FieloEE__HasSegments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image --></label>
+        <name>FieloEE__Image__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the URL you want this image to redirect to. The link must be of the form &quot;http://www.domain.com&quot;. --></help>
+        <label><!-- Link --></label>
+        <name>FieloEE__Link__c</name>
+    </fields>
+    <fields>
+        <help><!-- Establish the order of the images in the slider banner. --></help>
+        <label><!-- Order --></label>
+        <name>FieloEE__Order__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter an HTML code that will be rendered over the image. --></help>
+        <label><!-- Overlay HTML --></label>
+        <name>FieloEE__OverlayHtml__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a text to be shown over the image. --></help>
+        <label><!-- Overlay Text --></label>
+        <name>FieloEE__OverlayText__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this picklist to show the banner in custom pages. --></help>
+        <label><!-- Placement --></label>
+        <name>FieloEE__Placement__c</name>
+        <picklistValues>
+            <masterLabel>Home Side</masterLabel>
+            <translation><!-- Home Side --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Top</masterLabel>
+            <translation><!-- Home Top --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>FieloEE__Program__c</name>
+        <relationshipLabel><!-- Banner --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Segment --></label>
+        <name>FieloEE__RedemptionRule__c</name>
+        <relationshipLabel><!-- Banners --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Set the last day this banner will be shown in the front end. --></help>
+        <label><!-- To --></label>
+        <name>FieloEE__To__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check the box in order to activate the banner. You can only activate a banner if it has a related image. --></help>
+        <label><!-- is Active --></label>
+        <name>FieloEE__isActive__c</name>
+    </fields>
+    <layouts>
+        <layout>Banner Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Image --></label>
+            <section>Image</section>
+        </sections>
+        <sections>
+            <label><!-- Overlays --></label>
+            <section>Overlays</section>
+        </sections>
+        <sections>
+            <label><!-- Placement (complete one) --></label>
+            <section>Placement (complete one)</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Default --></label>
+        <name>Component</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Free --></label>
+        <name>Free</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You must load an image to active a banner --></errorMessage>
+        <name>FieloEE__ActiveBanner</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To Date must be greater than From Date --></errorMessage>
+        <name>FieloEE__EndDategreaterthanStartDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Name Required --></errorMessage>
+        <name>FieloEE__Name_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The order can not be negative --></errorMessage>
+        <name>FieloEE__Order_can_not_be_negative</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ActiveInactive --></label>
+        <name>FieloEE__ActiveInactive</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewBanner --></label>
+        <name>FieloEE__NewBanner</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- OrderBanner --></label>
+        <name>FieloEE__OrderBanner</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Estimated time to process a badgemember (in milliseconds - ms). It ranges from null to 10,000 ms, when null is a complete synchronous process and 10,000 is completely asynchronously. --></help>
+        <label><!-- BadgeMemberTimeUnit --></label>
+        <name>FieloCH__BadgeMemberTimeUnit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Estimated time to process an event (in milliseconds - ms). It ranges from null to 10,000 ms, when null is a complete synchronous process and 10,000 is completely asynchronously. --></help>
+        <label><!-- EventTimeUnit --></label>
+        <name>FieloCH__EventTimeUnit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Global challenges could add a lot of unnecessary processing. In order to avoid the segmentation overhead, this filter is a pre-segmentation that match fields from the Challenge and the Member. For example country --></help>
+        <label><!-- GlobalFilter --></label>
+        <name>FieloCH__GlobalFilter__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked, a Badge Member should be part of the document BADGESFILTER to be processed --></help>
+        <label><!-- Prefilter --></label>
+        <name>FieloCH__Prefilter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Estimated time to process a reward challenge (in milliseconds - ms). It ranges from null to 10,000 ms, when null is a complete synchronous process and 10,000 is completely asynchronously. --></help>
+        <label><!-- RewardTimeUnit --></label>
+        <name>FieloCH__RewardTimeUnit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Estimated time to process a challenge member (in milliseconds - ms). It ranges from null to 10,000 ms, when null is a complete synchronous process and 10,000 is completely asynchronously. --></help>
+        <label><!-- SubscriptionTimeUnit --></label>
+        <name>FieloCH__SubscriptionTimeUnit__c</name>
+    </fields>
+</CustomObjectTranslation>

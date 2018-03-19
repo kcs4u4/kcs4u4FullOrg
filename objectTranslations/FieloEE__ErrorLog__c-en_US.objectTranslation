@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Line Number --></label>
+        <name>FieloEE__LineNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>FieloEE__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stack Trace --></label>
+        <name>FieloEE__StackTrace__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>FieloEE__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- User Id --></label>
+        <name>FieloEE__UserId__c</name>
+    </fields>
+</CustomObjectTranslation>

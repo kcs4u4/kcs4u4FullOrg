@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Complete this with the API name of the member lookup field related to this object.
+This will ensure that only the related member can access records related to this object. --></help>
+        <label><!-- Field Member --></label>
+        <name>FieloCRUD__FieldMember__c</name>
+    </fields>
+    <fields>
+        <help><!-- Define the field API name that will determine which page layout applies to the object. --></help>
+        <label><!-- Field To Define Page Layout --></label>
+        <name>FieloCRUD__FieldToDefinePageLayout__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object API Name --></label>
+        <name>FieloCRUD__ObjectAPIName__c</name>
+    </fields>
+    <layouts>
+        <layout>Object Settings</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- There is already an object setting with that name! --></errorMessage>
+        <name>FieloCRUD__ObjectSetting_DuplicateName</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Member --></label>
+        <name>FieloCH__Member2__c</name>
+        <relationshipLabel><!-- Team Members --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>FieloCH__Team2__c</name>
+        <relationshipLabel><!-- Members --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Team Member Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- AddMembers --></label>
+        <name>FieloCH__AddMembers</name>
+    </webLinks>
+</CustomObjectTranslation>

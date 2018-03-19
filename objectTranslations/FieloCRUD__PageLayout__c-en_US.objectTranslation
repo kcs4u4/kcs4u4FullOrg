@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Menu that handles back action through the page layout. Commonly is the menu that contains the list view component which references this page layout. --></help>
+        <label><!-- Back Action Menu --></label>
+        <name>FieloCRUD__BackActionMenu__c</name>
+        <relationshipLabel><!-- Back Actions from Page Layouts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Defines buttons alignment within the page layout. --></help>
+        <label><!-- Buttons Alignment --></label>
+        <name>FieloCRUD__ButtonsAlignment__c</name>
+        <picklistValues>
+            <masterLabel>Center</masterLabel>
+            <translation><!-- Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Left</masterLabel>
+            <translation><!-- Left --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Right</masterLabel>
+            <translation><!-- Right --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Defines where buttons will appear, if at the top, at the bottom or in both places. --></help>
+        <label><!-- Buttons Placement --></label>
+        <name>FieloCRUD__ButtonsPlacement__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottom</masterLabel>
+            <translation><!-- Bottom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top</masterLabel>
+            <translation><!-- Top --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CSS Content --></label>
+        <name>FieloCRUD__CSSContent__c</name>
+    </fields>
+    <fields>
+        <help><!-- System must always have one default page layout which is going to be used for record creation and in case of a misconfiguration on multi-layout functionality. --></help>
+        <label><!-- Default --></label>
+        <name>FieloCRUD__Default__c</name>
+    </fields>
+    <fields>
+        <help><!-- Override the delete action by adding a menu that handles record deletion through page layout. --></help>
+        <label><!-- Delete Action Menu --></label>
+        <name>FieloCRUD__DeleteActionMenu__c</name>
+        <relationshipLabel><!-- Delete Actions from Page Layouts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Define whether the deletion of the record will be done directly on the page layout, on the delete action menu or if there is no delete action on the page layout. --></help>
+        <label><!-- Deletion From --></label>
+        <name>FieloCRUD__DeletionFrom__c</name>
+        <picklistValues>
+            <masterLabel>Action Menu</masterLabel>
+            <translation><!-- Action Menu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Page Layout</masterLabel>
+            <translation><!-- Page Layout --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This field is for use on the Member object only. If checked (True), when creating a new member record, Fielo won&apos;t automatically create the User record. --></help>
+        <label><!-- Don&apos;t Create Member User --></label>
+        <name>FieloCRUD__DontCreateMemberUser__c</name>
+    </fields>
+    <fields>
+        <help><!-- Menu that handles record edition through page layout. Commonly is a menu that contains a CRUD component that references this page layout but it can also be a custom page. --></help>
+        <label><!-- Edit Action Menu --></label>
+        <name>FieloCRUD__EditActionMenu__c</name>
+        <relationshipLabel><!-- Edit Actions from Page Layouts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This HTML content will be displayed if the submission of the form is a success. --></help>
+        <label><!-- HTML Content --></label>
+        <name>FieloCRUD__HTMLContent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide back button --></label>
+        <name>FieloCRUD__HideBackButton__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label Save button --></label>
+        <name>FieloCRUD__LabelSaveButton__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object API Name --></label>
+        <name>FieloCRUD__ObjectAPIName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Settings --></label>
+        <name>FieloCRUD__ObjectSettings__c</name>
+        <relationshipLabel><!-- Page Layouts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Record Type Name --></label>
+        <name>FieloCRUD__RecordTypeName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Override where a record should redirect after creation. If this field is not completed it will take into account the configuration of the list view that references this page layout. --></help>
+        <label><!-- Save Action Menu (Override) --></label>
+        <name>FieloCRUD__SaveActionMenuOverride__c</name>
+        <relationshipLabel><!-- Save Actions from Page Layouts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Complete with the value that the field defined in &quot;Field To Define Page Layout&quot; of the related object setting should take in order to display this page layout. --></help>
+        <label><!-- Value To Define Page Layout --></label>
+        <name>FieloCRUD__ValueToDefinePageLayout__c</name>
+    </fields>
+    <layouts>
+        <layout>Page Layout Form</layout>
+        <sections>
+            <label><!-- (Only for Member Page Layouts) --></label>
+            <section>(Only for Member Page Layouts)</section>
+        </sections>
+        <sections>
+            <label><!-- Buttons --></label>
+            <section>Buttons</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Labels --></label>
+            <section>Labels</section>
+        </sections>
+        <sections>
+            <label><!-- Success Message --></label>
+            <section>Success Message</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Page Layout Profile</layout>
+        <sections>
+            <label><!-- Buttons --></label>
+            <section>Buttons</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Labels --></label>
+            <section>Labels</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Page Layout Standard</layout>
+        <sections>
+            <label><!-- (Only for Member Page Layouts) --></label>
+            <section>(Only for Member Page Layouts)</section>
+        </sections>
+        <sections>
+            <label><!-- Buttons --></label>
+            <section>Buttons</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Labels --></label>
+            <section>Labels</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Page Layout Static</layout>
+        <sections>
+            <label><!-- (Only for Member Page Layouts) --></label>
+            <section>(Only for Member Page Layouts)</section>
+        </sections>
+        <sections>
+            <label><!-- Buttons --></label>
+            <section>Buttons</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Labels --></label>
+            <section>Labels</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Form --></label>
+        <name>Form</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Profile --></label>
+        <name>Profile</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Standard --></label>
+        <name>Standard</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Static --></label>
+        <name>Static</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Profile record type is only available for object settings related to &quot;FieloEE__Member__c&quot; object. --></errorMessage>
+        <name>FieloCRUD__PageLayout_ProfileOnlyForMember</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete the field &quot;Field To Define Page Layout&quot; in the related &quot;Object Settings&quot; record --></errorMessage>
+        <name>FieloCRUD__PageLayout_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must include type if the object setting has a field that defines layout. --></errorMessage>
+        <name>FieloCRUD__PageLayout_TypeIsMandatory</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- DeepClone --></label>
+        <name>FieloCRUD__DeepClone</name>
+    </webLinks>
+</CustomObjectTranslation>

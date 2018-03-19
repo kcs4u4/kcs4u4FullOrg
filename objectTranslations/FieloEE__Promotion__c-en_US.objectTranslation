@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Count Days --></label>
+        <name>FieloEE__CountDays__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a description for this promotion. --></help>
+        <label><!-- Description --></label>
+        <name>FieloEE__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the date when this promotion will finish. --></help>
+        <label><!-- Final Date --></label>
+        <name>FieloEE__FinalDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the date when this promotion will start. --></help>
+        <label><!-- Initial Date --></label>
+        <name>FieloEE__InitialDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the program to which this promotion belongs. --></help>
+        <label><!-- Program --></label>
+        <name>FieloEE__Program__c</name>
+        <relationshipLabel><!-- Promotions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Profiling --></label>
+        <name>FieloEE__RedemptionRule__c</name>
+        <relationshipLabel><!-- Promotions --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Default Promotion</layout>
+        <sections>
+            <label>Custom Links</label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Standard Promotion</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Default Promotion --></label>
+        <name>Default_Promotion</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Standard Promotion --></label>
+        <name>Standard_Promotion</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Promotion Default must not have Profiling --></errorMessage>
+        <name>FieloEE__Default_Promotion_Profiling</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Is not possible to modify the associated Program --></errorMessage>
+        <name>FieloEE__ModifyProgram</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Record Type cannot be modified. --></errorMessage>
+        <name>FieloEE__Modify_RecordType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Can not delete the Default Promotion --></errorMessage>
+        <name>FieloEE__Undelete_Default</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Final Date must be great or equal to Initial Date --></errorMessage>
+        <name>FieloEE__Validate_Dates</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Edit_Default_Rule --></label>
+        <name>FieloEE__Edit_Default_Rule</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Fielo_PromotionDefault --></label>
+        <name>FieloEE__Fielo_PromotionDefault</name>
+    </webLinks>
+</CustomObjectTranslation>

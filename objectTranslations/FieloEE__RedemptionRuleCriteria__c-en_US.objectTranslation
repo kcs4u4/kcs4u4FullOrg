@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Boolean Value --></label>
+        <name>FieloEE__BooleanValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Value --></label>
+        <name>FieloEE__DateValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Name --></label>
+        <name>FieloEE__FieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Type --></label>
+        <name>FieloEE__FieldType__c</name>
+        <picklistValues>
+            <masterLabel>Boolean</masterLabel>
+            <translation><!-- Boolean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Date</masterLabel>
+            <translation><!-- Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number</masterLabel>
+            <translation><!-- Number --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>String</masterLabel>
+            <translation><!-- String --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>FieloEE__Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number Value --></label>
+        <name>FieloEE__NumberValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Operator --></label>
+        <name>FieloEE__Operator__c</name>
+        <picklistValues>
+            <masterLabel>contains</masterLabel>
+            <translation><!-- contains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>equals</masterLabel>
+            <translation><!-- equals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater or equal</masterLabel>
+            <translation><!-- greater or equal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>greater than</masterLabel>
+            <translation><!-- greater than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less or equal</masterLabel>
+            <translation><!-- less or equal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>less than</masterLabel>
+            <translation><!-- less than --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not contains</masterLabel>
+            <translation><!-- not contains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>not equals</masterLabel>
+            <translation><!-- not equals --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Redemption Rule --></label>
+        <name>FieloEE__RedemptionRule__c</name>
+        <relationshipLabel><!-- Redemption Rule Criteria --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Values --></label>
+        <name>FieloEE__Values__c</name>
+    </fields>
+</CustomObjectTranslation>

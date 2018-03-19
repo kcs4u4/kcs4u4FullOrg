@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Regra</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Regras</value>
+    </caseValues>
+    <fields>
+        <label><!-- Action Description --></label>
+        <name>FieloEE__ActionDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Convertion Type Reward --></label>
+        <name>FieloEE__ConvertionTypeReward__c</name>
+        <picklistValues>
+            <masterLabel>Fix Value</masterLabel>
+            <translation>Valor fixo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reward Field</masterLabel>
+            <translation>Prêmio dinâmico</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Convertion Type Transaction --></label>
+        <name>FieloEE__ConvertionTypeTransaction__c</name>
+        <picklistValues>
+            <masterLabel>Factor</masterLabel>
+            <translation>Fator</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fix Value</masterLabel>
+            <translation>Valor fixo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multiplier</masterLabel>
+            <translation>Multiplicador</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Convertion Value --></label>
+        <name>FieloEE__ConvertionValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a description for this rule. --></help>
+        <label><!-- Description --></label>
+        <name>FieloEE__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the number of months during which the points created by the rule will remain vaild. --></help>
+        <label><!-- Months untill Expiration --></label>
+        <name>FieloEE__ExpirationMonth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Name Reward --></label>
+        <name>FieloEE__FieldNameReward__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Name Transaction --></label>
+        <name>FieloEE__FieldNameTransaction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instant Reward --></label>
+        <name>FieloEE__InstantReward__c</name>
+        <relationshipLabel><!-- Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Check this option in order to activate this rule. --></help>
+        <label><!-- Active --></label>
+        <name>FieloEE__IsActive__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the program to which this rule belongs. --></help>
+        <label><!-- Program --></label>
+        <name>FieloEE__Program__c</name>
+        <relationshipLabel><!-- Rules --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Check this option if you want that a transaction is not processed when its reward is out of stock. --></help>
+        <label><!-- Stock Control --></label>
+        <name>FieloEE__StockControl__c</name>
+    </fields>
+    <fields>
+        <help>Aqui você seleciona o modelo de aplicação da regra. Melhor Opção: só aplicará a opção que mais pontua. Sempre: a regra sempre será aplicada.</help>
+        <label><!-- Type --></label>
+        <name>FieloEE__Type__c</name>
+        <picklistValues>
+            <masterLabel>Best Option</masterLabel>
+            <translation>Melhor opção</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Competition</masterLabel>
+            <translation>Sempre</translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Default Rule</layout>
+        <sections>
+            <label>Regra</label>
+            <section>Regra de Pontos</section>
+        </sections>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Standard Rule</layout>
+        <sections>
+            <label>Critérios</label>
+            <section>Criterias</section>
+        </sections>
+        <sections>
+            <label>Prêmio automático</label>
+            <section>Instant Reward</section>
+        </sections>
+        <sections>
+            <label>Ações</label>
+            <section>Points</section>
+        </sections>
+        <sections>
+            <label>Regra</label>
+            <section>Rule Detail</section>
+        </sections>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nome da Regra</nameFieldLabel>
+    <recordTypes>
+        <label><!-- Default Rule --></label>
+        <name>Default_Rule</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Standard Rule --></label>
+        <name>Standard_Rule</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Is not possible to modify the associated Program --></errorMessage>
+        <name>FieloEE__ModifyProgram</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Name must be completed --></errorMessage>
+        <name>FieloEE__Rule_Name_Empty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The quantity of points cannot be empty or be 0 --></errorMessage>
+        <name>FieloEE__Validate_points_value</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- RuleChangeStatus --></label>
+        <name>FieloEE__RuleChangeStatus</name>
+    </webLinks>
+</CustomObjectTranslation>

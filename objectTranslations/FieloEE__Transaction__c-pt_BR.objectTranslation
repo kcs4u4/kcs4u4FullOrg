@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Transação</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Transações</value>
+    </caseValues>
+    <fields>
+        <label><!-- Challenge --></label>
+        <name>FieloCH__Challenge__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Read only field. --></help>
+        <label><!-- Adjust Transaction --></label>
+        <name>FieloEE__Adjust__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Approved (Read Only) --></label>
+        <name>FieloEE__ApprovedReadOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved --></label>
+        <name>FieloEE__Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attachment Id --></label>
+        <name>FieloEE__AttachmentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branch Code --></label>
+        <name>FieloEE__BranchCode__c</name>
+    </fields>
+    <fields>
+        <help>Selecione a filial que está executando a operação</help>
+        <label><!-- Branch --></label>
+        <name>FieloEE__Branch__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Code Item --></label>
+        <name>FieloEE__CodeItem__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>FieloEE__Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>FieloEE__Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date &amp; Time (Read Only) --></label>
+        <name>FieloEE__DateReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter date and time of this transaction. --></help>
+        <label><!-- Date &amp; Time --></label>
+        <name>FieloEE__Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Identification Type --></label>
+        <name>FieloEE__IdentificationType__c</name>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Passport</masterLabel>
+            <translation>Passaporte</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>FieloEE__Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Identification Number --></label>
+        <name>FieloEE__MemberCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member (Read Only) --></label>
+        <name>FieloEE__MemberReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the member who performed this transaction. --></help>
+        <label><!-- Member --></label>
+        <name>FieloEE__Member__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Check this box for the transaction to be processed offline. --></help>
+        <label><!-- Offline --></label>
+        <name>FieloEE__Offline__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter actual cost, in the  currency of your choice, of a point in your program. --></help>
+        <label><!-- Point Cost --></label>
+        <name>FieloEE__PointCost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Points (Read Only) --></label>
+        <name>FieloEE__PointsReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the number of points produced by this transaction. --></help>
+        <label><!-- Points --></label>
+        <name>FieloEE__Points__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed Status (Read Only) --></label>
+        <name>FieloEE__ProcessedStatusReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Read only field. --></help>
+        <label><!-- Processed --></label>
+        <name>FieloEE__Processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referral --></label>
+        <name>FieloEE__Referral__c</name>
+        <relationshipLabel><!-- Transactions (Referral) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Revenue --></label>
+        <name>FieloEE__Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reverted --></label>
+        <name>FieloEE__Reverted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reward --></label>
+        <name>FieloEE__Reward__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Skip Engine --></label>
+        <name>FieloEE__SkipEngine__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status (Read Only) --></label>
+        <name>FieloEE__StatusReadOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>FieloEE__Status__c</name>
+        <picklistValues>
+            <masterLabel>Error in the Approval Process</masterLabel>
+            <translation>Erro no Processo de Aprovação</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction without Member</masterLabel>
+            <translation>Transação sem Participante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unapproved Transaction</masterLabel>
+            <translation>Transação não Aprovada</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>É necessário associar um código a está transação</help>
+        <label><!-- Transaction Id --></label>
+        <name>FieloEE__TransactionId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pick the type of transaction. --></help>
+        <label><!-- Type --></label>
+        <name>FieloEE__Type__c</name>
+        <picklistValues>
+            <masterLabel>Adjust</masterLabel>
+            <translation><!-- Adjust --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code Insert</masterLabel>
+            <translation>Inserção de código</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expiration</masterLabel>
+            <translation><!-- Expiration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchase</masterLabel>
+            <translation>Compra</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral - Step 1</masterLabel>
+            <translation>Indicação - Cadastro básico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral - Step 2</masterLabel>
+            <translation>Indicação - Cadastro completo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Registration</masterLabel>
+            <translation>Cadastramento</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the purchase value. --></help>
+        <label><!-- Purchase Value --></label>
+        <name>FieloEE__Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey Response --></label>
+        <name>FieloSVY__SurveyResponse__c</name>
+        <relationshipLabel><!-- Transactions --></relationshipLabel>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato de Transaction</layout>
+        <sections>
+            <label>Dados da Filial</label>
+            <section>Branch data</section>
+        </sections>
+        <sections>
+            <label>Dados do Participante</label>
+            <section>Member data</section>
+        </sections>
+        <sections>
+            <label>Estado</label>
+            <section>Status</section>
+        </sections>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nome</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- You must enter &quot;Purchase value = 0&quot; for transactions of types: Registration, Code insert, Referral - Simple signup, and Referral - Complete signup. --></errorMessage>
+        <name>FieloEE__ValidateTransactionType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value cannot be 0 --></errorMessage>
+        <name>FieloEE__ValidateTransactionValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must complete the Member Code and Identification Type, or the Member Field. --></errorMessage>
+        <name>FieloEE__Validate_Member</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Codes --></label>
+        <name>FieloEE__Codes</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- FieloProcessOffline --></label>
+        <name>FieloEE__FieloProcessOffline</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewAdjustTransaction --></label>
+        <name>FieloEE__NewAdjustTransaction</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Revert --></label>
+        <name>FieloEE__Revert</name>
+    </webLinks>
+</CustomObjectTranslation>

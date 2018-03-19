@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Reward --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Reward --></value>
+    </caseValues>
+    <fields>
+        <help><!-- Upload an image for this reward. --></help>
+        <label><!-- Image --></label>
+        <name>FieloEE__AttachmentId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify how many days the voucher will be usable since the redemption is created. Leave it blank if you do not want an expiration date. --></help>
+        <label><!-- Reward Voucher Validity (Days) --></label>
+        <name>FieloEE__AvailableDays__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose the category from the list where this reward will appear on the member portal. --></help>
+        <label><!-- Category --></label>
+        <name>FieloEE__Category__c</name>
+        <relationshipLabel><!-- Rewards --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Condenser Id --></label>
+        <name>FieloEE__CondenserId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a description of the product to be shown in the front end. --></help>
+        <label><!-- Description --></label>
+        <name>FieloEE__Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify the expiration date of the reward. --></help>
+        <label><!-- Expiration Date --></label>
+        <name>FieloEE__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Name --></label>
+        <name>FieloEE__ExternalName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Multi Segment --></label>
+        <name>FieloEE__HasSegments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image --></label>
+        <name>FieloEE__Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instructions RichText --></label>
+        <name>FieloEE__InstructionsRichText__c</name>
+    </fields>
+    <fields>
+        <help><!-- Define the instructions that will be printed in the voucher for redeeming this reward. These instructions overrule the instructions in Settings. --></help>
+        <label><!-- Specific Instructions --></label>
+        <name>FieloEE__Instructions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Click here to set an unlimited quantity for this reward. --></help>
+        <label><!-- zz_deprecated_Unlimited Quantity? --></label>
+        <name>FieloEE__Intangible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Items Available (Read Only) --></label>
+        <name>FieloEE__ItemsAvailableReadOnly__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify the number of points necessary to redeem this reward. --></help>
+        <label><!-- Points --></label>
+        <name>FieloEE__PointsCant__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify the cost of purchase of this reward. This will be used only for reporting purposes. --></help>
+        <label><!-- Unit Cost --></label>
+        <name>FieloEE__Price__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the program to which this reward belongs. --></help>
+        <label><!-- Program --></label>
+        <name>FieloEE__Program__c</name>
+        <relationshipLabel><!-- Rewards --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- The available quantity of the reward. --></help>
+        <label><!-- Quantity Available --></label>
+        <name>FieloEE__QuantityAvailable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Comments --></label>
+        <name>FieloEE__QuantityComments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify the value in Mall Points to redeem this reward. --></help>
+        <label><!-- zz_deprecated_Mall Point Value --></label>
+        <name>FieloEE__QuantityFieloPoints__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Likes --></label>
+        <name>FieloEE__QuantityLikes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Click here to set an unlimited quantity for this reward. --></help>
+        <label><!-- zz_deprecated_Quantity Pending --></label>
+        <name>FieloEE__QuantityPending__c</name>
+    </fields>
+    <fields>
+        <help><!-- The quantity of rewards that has been redeemed. --></help>
+        <label><!-- Quantity Redeem --></label>
+        <name>FieloEE__QuantityRedeem__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify the rule that will apply toward the redemption of the prize. --></help>
+        <label><!-- Segment --></label>
+        <name>FieloEE__RedemptionRule__c</name>
+        <relationshipLabel><!-- Rewards --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Specify the provider of this reward. Leave it blank if this reward has not provider. --></help>
+        <label><!-- Reward Facilitator --></label>
+        <name>FieloEE__RewardFacilitator__c</name>
+        <relationshipLabel><!-- Rewards --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Specify the stock limit alert. This will be used to send an alert email. --></help>
+        <label><!-- Stock Warning --></label>
+        <name>FieloEE__StockWarning__c</name>
+    </fields>
+    <fields>
+        <label><!-- Items Available --></label>
+        <name>FieloEE__Stock__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this option if you want to create a voucher in a redemption that have two or more items of this reward. This voucher will show the quantity field. --></help>
+        <label><!-- Unique Voucher --></label>
+        <name>FieloEE__UniqueVoucher__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the quantity of &apos;likes&apos; the reward received by members. --></help>
+        <label><!-- Quantity Votes --></label>
+        <name>FieloEE__VotesQuantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Determine whether the codes to get points will be preloaded or automatic --></help>
+        <label><!-- Stock Management --></label>
+        <name>FieloEE__VoucherCreationMode__c</name>
+        <picklistValues>
+            <masterLabel>Controlled By Item</masterLabel>
+            <translation><!-- Controlled By Item --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Controlled By Quantity</masterLabel>
+            <translation><!-- Controlled By Quantity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unlimited</masterLabel>
+            <translation><!-- Unlimited --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check this option if you want to give this reward for free (for no points) when the member does a special action. --></help>
+        <label><!-- Instant Reward --></label>
+        <name>FieloEE__isInstantReward__c</name>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <layouts>
+        <layout>Formato de Reward</layout>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Other Information --></label>
+            <section>Other Information</section>
+        </sections>
+        <sections>
+            <label><!-- Other information --></label>
+            <section>Other information</section>
+        </sections>
+        <sections>
+            <label><!-- Reports --></label>
+            <section>Reports</section>
+        </sections>
+        <sections>
+            <label><!-- Reward Photo --></label>
+            <section>Reward Photo</section>
+        </sections>
+        <sections>
+            <label><!-- Stock Management --></label>
+            <section>Stock Management</section>
+        </sections>
+        <sections>
+            <label><!-- Voucher --></label>
+            <section>Voucher</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Reward Name --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+    <validationRules>
+        <errorMessage><!-- value must be positive --></errorMessage>
+        <name>FieloEE__Available_Days</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This operation is allowed when stock is equal to zero --></errorMessage>
+        <name>FieloEE__ChangeStockMode</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Is not possible to modify the associated Program --></errorMessage>
+        <name>FieloEE__ModifyProgram</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Rewards controlled By Item with preloaded vouchers can&apos;t be unique voucher --></errorMessage>
+        <name>FieloEE__MultiVoucher</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The points of the reward are mandatory --></errorMessage>
+        <name>FieloEE__Points_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- value must be positive --></errorMessage>
+        <name>FieloEE__Price_Possitive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- value must be positive --></errorMessage>
+        <name>FieloEE__Quantity_Points_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The stock should be positive --></errorMessage>
+        <name>FieloEE__Stock_Positive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A reward cannot be unlimited and preload at the same time --></errorMessage>
+        <name>FieloEE__Unlimited</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GenerateItems --></label>
+        <name>FieloEE__GenerateItems</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- UploadPhoto --></label>
+        <name>FieloEE__UploadPhoto</name>
+    </webLinks>
+</CustomObjectTranslation>

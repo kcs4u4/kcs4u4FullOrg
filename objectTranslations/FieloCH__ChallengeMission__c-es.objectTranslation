@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Challenge Mission --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Challenge Mission --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Average --></label>
+        <name>FieloCH__Average__c</name>
+    </fields>
+    <fields>
+        <label><!-- Challenge --></label>
+        <name>FieloCH__Challenge2__c</name>
+        <relationshipLabel><!-- Missions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Counter --></label>
+        <name>FieloCH__Counter__c</name>
+    </fields>
+    <fields>
+        <label><!-- MaxValue --></label>
+        <name>FieloCH__MaxValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mission --></label>
+        <name>FieloCH__Mission2__c</name>
+        <relationshipLabel><!-- Challenge  Missions (Mission) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Mission Link --></label>
+        <name>FieloCH__Mission_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>FieloCH__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>FieloCH__Status__c</name>
+        <picklistValues>
+            <masterLabel>Accomplished</masterLabel>
+            <translation>Cumplido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Accomplished</masterLabel>
+            <translation>No Cumplido</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Summary --></label>
+        <name>FieloCH__Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>FieloCH__Team__c</name>
+        <relationshipLabel><!-- Challenge  Missions --></relationshipLabel>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Challenge Mission Layout</layout>
+        <sections>
+            <label>Enlaces personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- ChallengeMission Name --></nameFieldLabel>
+    <webLinks>
+        <label><!-- AddExistingMissions --></label>
+        <name>FieloCH__AddExistingMissions</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- NewMission --></label>
+        <name>FieloCH__NewMission</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Branch Code --></label>
+        <name>Branch_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer ID --></label>
+        <name>Customer_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Contacts --></label>
+        <name>FieloEE__Number_of_Contacts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Match Billing Address --></label>
+        <name>Match_Billing_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Contacts --></label>
+        <name>Number_of_Contacts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Expiration Date --></label>
+        <name>SLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Serial Number --></label>
+        <name>SLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Update Field --></label>
+        <name>Update_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upsell Opportunity --></label>
+        <name>UpsellOpportunity__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- abc --></label>
+        <name>abc__c</name>
+        <picklistValues>
+            <masterLabel>a</masterLabel>
+            <translation><!-- a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>b</masterLabel>
+            <translation><!-- b --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>c</masterLabel>
+            <translation><!-- c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- up[date Filed1 --></label>
+        <name>up_date_Filed1__c</name>
+    </fields>
+    <layouts>
+        <layout>Account (Sales) Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Member --></label>
+        <name>Member</name>
+    </quickActions>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Convert_Account --></label>
+        <name>FieloEE__Convert_Account</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MailChimp_Subscriptions --></label>
+        <name>MC4SF__MailChimp_Subscriptions</name>
+    </webLinks>
+    <workflowTasks>
+        <name>NewTemp</name>
+        <subject><!-- NewTemp --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>NewTemp1</name>
+        <subject><!-- NewTemp1 --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <name>newMatter</name>
+        <subject><!-- newMatter --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

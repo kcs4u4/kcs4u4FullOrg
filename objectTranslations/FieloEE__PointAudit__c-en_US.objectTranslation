@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Point Age in Days --></label>
+        <name>FieloEE__PointAge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>FieloEE__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Redemption Points --></label>
+        <name>FieloEE__RedemptionPoints__c</name>
+        <relationshipLabel><!-- Redeemed Points Detail --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Transaction Points --></label>
+        <name>FieloEE__TransactionPoints__c</name>
+        <relationshipLabel><!-- Used Points Detail --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

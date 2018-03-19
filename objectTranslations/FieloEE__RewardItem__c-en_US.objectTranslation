@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Code --></label>
+        <name>FieloEE__Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCondenser --></label>
+        <name>FieloEE__IsCondenser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>FieloEE__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Redemption Item --></label>
+        <name>FieloEE__RedemptionItem__c</name>
+        <relationshipLabel><!-- Reward Item --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reward --></label>
+        <name>FieloEE__Reward__c</name>
+        <relationshipLabel><!-- Reward Item --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>FieloEE__Status__c</name>
+        <picklistValues>
+            <masterLabel>Available</masterLabel>
+            <translation><!-- Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation><!-- Cancel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unavailable</masterLabel>
+            <translation><!-- Unavailable --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Formato de Item</layout>
+        <sections>
+            <label>Custom Links</label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

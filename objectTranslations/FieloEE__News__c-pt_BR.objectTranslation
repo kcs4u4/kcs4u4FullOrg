@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Noticia</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Noticias</value>
+    </caseValues>
+    <fields>
+        <label><!-- AttachmentId --></label>
+        <name>FieloEE__AttachmentId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter text or images for your content feed. --></help>
+        <label><!-- Body --></label>
+        <name>FieloEE__Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category Item --></label>
+        <name>FieloEE__CategoryItem__c</name>
+        <relationshipLabel><!-- Content feeds --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Category --></label>
+        <name>FieloEE__Category__c</name>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation>Padrão</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the component that will show this content feed. --></help>
+        <label><!-- Component --></label>
+        <name>FieloEE__Component__c</name>
+        <relationshipLabel><!-- Content feed --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Set the URL to which this content feed will redirect. --></help>
+        <label><!-- External Link --></label>
+        <name>FieloEE__ExternalLink__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Name --></label>
+        <name>FieloEE__ExternalName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a short description for this content feed. --></help>
+        <label><!-- Extract Text --></label>
+        <name>FieloEE__ExtractText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Multi Segment --></label>
+        <name>FieloEE__HasSegments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the ID of the image file to be added to this content feed. --></help>
+        <label><!-- Image --></label>
+        <name>FieloEE__Image__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>FieloEE__IsActive__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the position for this content feed. --></help>
+        <label><!-- Order --></label>
+        <name>FieloEE__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>FieloEE__Program__c</name>
+        <relationshipLabel><!-- Content feed --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Set the starting day for showing this content feed. --></help>
+        <label><!-- Publish Date --></label>
+        <name>FieloEE__PublishDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a title that will appear on top of this content feed. --></help>
+        <label><!-- QuantityComments --></label>
+        <name>FieloEE__QuantityComments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the number of comments of this content feed. --></help>
+        <label><!-- Quantity Likes --></label>
+        <name>FieloEE__QuantityLikes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment --></label>
+        <name>FieloEE__RedemptionRule__c</name>
+        <relationshipLabel><!-- Content feed --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter the title for this content feed. --></help>
+        <label><!-- Title --></label>
+        <name>FieloEE__Title__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the type of this content feed. --></help>
+        <label><!-- Type --></label>
+        <name>FieloEE__Type__c</name>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation>Evento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAQ</masterLabel>
+            <translation><!-- FAQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>News</masterLabel>
+            <translation>Geral</translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>News Layout</layout>
+        <sections>
+            <label>Corpo</label>
+            <section>Body</section>
+        </sections>
+        <sections>
+            <label><!-- Content Feed Photo --></label>
+            <section>Content Feed Photo</section>
+        </sections>
+        <sections>
+            <label>Link Personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Noticia Name</nameFieldLabel>
+    <webLinks>
+        <label><!-- EditContent --></label>
+        <name>FieloEE__EditContent</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Item de Prêmios</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Items de Prêmios</value>
+    </caseValues>
+    <fields>
+        <label><!-- Code --></label>
+        <name>FieloEE__Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsCondenser --></label>
+        <name>FieloEE__IsCondenser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>FieloEE__Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Redemption Item --></label>
+        <name>FieloEE__RedemptionItem__c</name>
+        <relationshipLabel><!-- Reward Item --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Reward --></label>
+        <name>FieloEE__Reward__c</name>
+        <relationshipLabel><!-- Reward Item --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>FieloEE__Status__c</name>
+        <picklistValues>
+            <masterLabel>Available</masterLabel>
+            <translation>Disponível</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation>Cancelar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unavailable</masterLabel>
+            <translation>Indisponível</translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Formato de Item</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nome</nameFieldLabel>
+</CustomObjectTranslation>

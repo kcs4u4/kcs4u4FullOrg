@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Names with extensions separated by comma --></help>
+        <label><!-- CRUD Static Resources --></label>
+        <name>FieloCRUD__StaticResources__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this option for the system to create a new account when you surpass 10,000 users. --></help>
+        <label><!-- ActiveContactsCalculation --></label>
+        <name>FieloEE__ActiveContactsCalculation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agreement Field Set --></label>
+        <name>FieloEE__AgreementFieldSet__c</name>
+    </fields>
+    <fields>
+        <help><!-- This page will be the one that overwrites the standard one to show the Agreement in the front end. --></help>
+        <label><!-- Agreement View --></label>
+        <name>FieloEE__AgreementView__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attachment Id --></label>
+        <name>FieloEE__AttachmentId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box for auditing this member&apos;s points. --></help>
+        <label><!-- Audit Points --></label>
+        <name>FieloEE__AuditPoints__c</name>
+    </fields>
+    <fields>
+        <label><!-- Automatic Code --></label>
+        <name>FieloEE__AutomaticCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Autonumeric MemberCode --></label>
+        <name>FieloEE__AutonumericMemberCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Banner Inject Query --></label>
+        <name>FieloEE__BannerInjectQuery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Public Key --></label>
+        <name>FieloEE__CaptchaPublicKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- Copy here the Private Key obtained at Google. --></help>
+        <label><!-- Secret Key --></label>
+        <name>FieloEE__CaptchaSecretKey__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the URL that provides your Captcha system. --></help>
+        <label><!-- Captcha URL --></label>
+        <name>FieloEE__CaptchaURL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Click here to enable Captcha. You need to create an account in a site providing a Captcha system. --></help>
+        <label><!-- Captcha --></label>
+        <name>FieloEE__Captcha__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category Inject Query --></label>
+        <name>FieloEE__CategoryInjectQuery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Password Page --></label>
+        <name>FieloEE__ChangePasswordPage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Component Fields Query --></label>
+        <name>FieloEE__ComponentFieldsQuery__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate the page you want to use instead of Fielo’s CMS. --></help>
+        <label><!-- Custom Page --></label>
+        <name>FieloEE__CustomPage__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the CSS code to be applied to customized vouchers. --></help>
+        <label><!-- Custom Voucher CSS --></label>
+        <name>FieloEE__CustomVoucherCss__c</name>
+    </fields>
+    <fields>
+        <help><!-- Chek this box if you want to make this your default program. --></help>
+        <label><!-- Default --></label>
+        <name>FieloEE__Default__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate the template that will be sent when the new member finishes the first step of registration. --></help>
+        <label><!-- Email Template Register --></label>
+        <name>FieloEE__EmailTemplateRegister__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pick &quot;None&quot; if member inactivity will not result in the expiration of points. Pick &quot;Total&quot; if member inactivity will result in the expiration of the total of points. The value &quot;Partial&quot; allows for a number of points to expire. --></help>
+        <label><!-- Expiration Mode --></label>
+        <name>FieloEE__ExpirationMode__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the quantity of months that the member will have active points. --></help>
+        <label><!-- Expiration Period --></label>
+        <name>FieloEE__ExpirationPeriod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Type Detail --></label>
+        <name>FieloEE__ExpirationTypeDetail__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter your Facebook Application ID number for Facebook integration. --></help>
+        <label><!-- Aplication Id --></label>
+        <name>FieloEE__FacebookAplicationId__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter your Facebook Secret Key for Facebook integration. --></help>
+        <label><!-- Aplication Secret --></label>
+        <name>FieloEE__FacebookAplicationSecret__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a description of your program that will be shown in recommendations. --></help>
+        <label><!-- Recomendation Description --></label>
+        <name>FieloEE__FacebookRecomendationDescription__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify the title to be used on the members’ recommendations. --></help>
+        <label><!-- Recomendation Title --></label>
+        <name>FieloEE__FacebookRecomendationName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a subtitle for the recommendation. --></help>
+        <label><!-- Recomendation Subtitle --></label>
+        <name>FieloEE__FacebookRecomendationSubtitle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facebook --></label>
+        <name>FieloEE__Facebook__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldSet --></label>
+        <name>FieloEE__FieldSet__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Buy Intencive --></label>
+        <name>FieloEE__FirstBuyIntencive__c</name>
+    </fields>
+    <fields>
+        <help><!-- Copy here the public key obtained at Google. --></help>
+        <label><!-- Google --></label>
+        <name>FieloEE__Google__c</name>
+    </fields>
+    <fields>
+        <label><!-- HTML head general --></label>
+        <name>FieloEE__HTMLHeadGeneral__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose here to validate the Member Code during signup. --></help>
+        <label><!-- Identification Code Type --></label>
+        <name>FieloEE__IdentificationCodeType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the number of days a member may be without generating transactions before being inactivated. --></help>
+        <label><!-- Member Inactivity (in days) --></label>
+        <name>FieloEE__InactiveDays__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the instructions for redeeming a reward. It will also be shown in the vouchers. --></help>
+        <label><!-- Reward Instructions --></label>
+        <name>FieloEE__InstructionsReward__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the instructions that will be shown in the vouchers. --></help>
+        <label><!-- Voucher Instructions --></label>
+        <name>FieloEE__InstructionsVoucher__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>FieloEE__Language__c</name>
+        <picklistValues>
+            <masterLabel>en_US</masterLabel>
+            <translation><!-- en_US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>es</masterLabel>
+            <translation><!-- es --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pt_BR</masterLabel>
+            <translation><!-- pt_BR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Linkedin --></label>
+        <name>FieloEE__Linkedin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Locale --></label>
+        <name>FieloEE__Locale__c</name>
+        <picklistValues>
+            <masterLabel>en_US</masterLabel>
+            <translation><!-- en_US --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Member Code Class --></label>
+        <name>FieloEE__MemberCodeClass__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member Code Classe --></label>
+        <name>FieloEE__MemberCodeClasse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Member Code --></label>
+        <name>FieloEE__MemberCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Menu Field Set --></label>
+        <name>FieloEE__MenuFieldSet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specify the frequency of metric calculations. --></help>
+        <label><!-- Metric Period --></label>
+        <name>FieloEE__MetricPeriod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Content Feed Inject Query --></label>
+        <name>FieloEE__NewsInjectQuery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Content Feed View --></label>
+        <name>FieloEE__NewsView__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the number of digits for the automatic vouchers. --></help>
+        <label><!-- Number of Voucher Digits --></label>
+        <name>FieloEE__NumberOfVoucherDigits__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set if the registration is in one or two steps. --></help>
+        <label><!-- One Step Registration --></label>
+        <name>FieloEE__OneStepRegistration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the number of days during which a redemption will be open. After that time lapse,  the redemption will be deleted. --></help>
+        <label><!-- Open Redemption Days --></label>
+        <name>FieloEE__OpenRedemptionDays__c</name>
+    </fields>
+    <fields>
+        <label><!-- Package Prefix --></label>
+        <name>FieloEE__PackagePrefix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Point Cost --></label>
+        <name>FieloEE__PointCost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the number of days a product will appear in the Most Recent list in the members&apos; portal. --></help>
+        <label><!-- Most Recent reward status (in days) --></label>
+        <name>FieloEE__RecentRewardsDays__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recommend Page --></label>
+        <name>FieloEE__RecommendPage__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this option if you wish to establish an approval process for the redemptions. --></help>
+        <label><!-- Request Redemption Authorization --></label>
+        <name>FieloEE__RedemptionApproval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Redemption View --></label>
+        <name>FieloEE__RedemptionView__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if you want to reward additional points when the referred member completes the registration (points are given to the member who referred the new one). --></help>
+        <label><!-- Referral Incentive Step 1 --></label>
+        <name>FieloEE__ReferalTransactionStep1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if you want to reward with points an existing member who refers someone else. The points are issued when the new member signs up. --></help>
+        <label><!-- Referral Incentive Step 2 --></label>
+        <name>FieloEE__ReferalTransactionStep2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this option if you want to reward new members for registering. --></help>
+        <label><!-- Registration Incentive --></label>
+        <name>FieloEE__RegistrationTransaction__c</name>
+    </fields>
+    <fields>
+        <help><!-- Define whether new member registration is subject to an approval process. By checking this option, the user establishes a workflow to approve new members. --></help>
+        <label><!-- Request User Authorization --></label>
+        <name>FieloEE__RequestAutorization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Transaction Authorization --></label>
+        <name>FieloEE__RequestTransactionAuthorization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reward Inject Query --></label>
+        <name>FieloEE__RewardInjectQuery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reward View --></label>
+        <name>FieloEE__RewardView__c</name>
+    </fields>
+    <fields>
+        <label><!-- Search Reward Menu --></label>
+        <name>FieloEE__SearchRewardMenu__c</name>
+    </fields>
+    <fields>
+        <label><!-- Segment Inject Query --></label>
+        <name>FieloEE__SegmentInjectQuery__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the sender name that will be shown in all the emails sent from the application. --></help>
+        <label><!-- Sender Display Name --></label>
+        <name>FieloEE__SenderDisplayName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shopping Cart Page --></label>
+        <name>FieloEE__ShoppingCartPage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shopping Cart --></label>
+        <name>FieloEE__ShoppingCart__c</name>
+    </fields>
+    <fields>
+        <label><!-- Show Voucher Code --></label>
+        <name>FieloEE__ShowVoucherCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Domain --></label>
+        <name>FieloEE__SiteDomain__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pick the profile name for new users in your program. --></help>
+        <label><!-- Site Profile --></label>
+        <name>FieloEE__SiteProfile__c</name>
+    </fields>
+    <fields>
+        <help><!-- URL of the site used to send the links to continue the registration process --></help>
+        <label><!-- Site URL --></label>
+        <name>FieloEE__SiteURL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a message to be shown to new members in the first step of the registration. --></help>
+        <label><!-- Step 1 Registration Message --></label>
+        <name>FieloEE__Step1RegistrationMessage__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a message that will be shown to new members in the second step of the registration. --></help>
+        <label><!-- Step 2 Registration Message --></label>
+        <name>FieloEE__Step2RegistrationMessage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock Control --></label>
+        <name>FieloEE__StockControl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tag Inject Query --></label>
+        <name>FieloEE__TagInjectQuery__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the time in days for transactions to expire if the member doesn&apos;t register in Fielo. --></help>
+        <label><!-- TimeOut Orphan Transactions --></label>
+        <name>FieloEE__TimeOutOrphanTransactions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the time zone for your program. --></help>
+        <label><!-- Time Zone --></label>
+        <name>FieloEE__TimeZone__c</name>
+        <picklistValues>
+            <masterLabel>en_US</masterLabel>
+            <translation><!-- en_US --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Decide if you would rather register every transaction online when it happens, or offline altogether as a pack. --></help>
+        <label><!-- Transaction Process Online --></label>
+        <name>FieloEE__TransactionProcessOnline__c</name>
+    </fields>
+    <fields>
+        <label><!-- Twitter --></label>
+        <name>FieloEE__Twitter__c</name>
+    </fields>
+    <fields>
+        <help><!-- When checked, the Program will have active the Agreement functionality. --></help>
+        <label><!-- Use Agreement --></label>
+        <name>FieloEE__UseAgreement__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the class you want to use for reflection of the user creation process. --></help>
+        <label><!-- User Creation Class --></label>
+        <name>FieloEE__UserCreationClass__c</name>
+    </fields>
+    <fields>
+        <label><!-- Validate Points By Item --></label>
+        <name>FieloEE__ValidatePointsByItem__c</name>
+    </fields>
+    <layouts>
+        <layout>Program Layout</layout>
+        <sections>
+            <label><!-- Captcha --></label>
+            <section>Captcha</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Facebook --></label>
+            <section>Facebook</section>
+        </sections>
+        <sections>
+            <label><!-- FrontEnd Settings --></label>
+            <section>FrontEnd Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Members Settings --></label>
+            <section>Members Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Program Pages --></label>
+            <section>Program Pages</section>
+        </sections>
+        <sections>
+            <label><!-- Rewards &amp; Redemptions Settings --></label>
+            <section>Rewards &amp; Redemptions Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Transaction Settings --></label>
+            <section>Transaction Settings</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Complete Site URL. You can find it going to Setup -&gt; Develop -&gt; Sites --></errorMessage>
+        <name>FieloEE__Complete_Site_URL</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value cannot be negative --></errorMessage>
+        <name>FieloEE__Open_Redemption_Days</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value cannot be negative --></errorMessage>
+        <name>FieloEE__Validate_Expiration_Period</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Quantity should be positive --></errorMessage>
+        <name>FieloEE__Validate_Inactive_Days</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Must be greater than 4 digits --></errorMessage>
+        <name>FieloEE__Validate_Numer_of_voucher_digits</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The quantity should be positive --></errorMessage>
+        <name>FieloEE__Validate_RecentRewardsDays</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0 and 30 --></errorMessage>
+        <name>FieloEE__Validate_TimeOut_Orphan_Transactions</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AdvanceSettings --></label>
+        <name>FieloEE__AdvanceSettings</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AgreementFieldSet --></label>
+        <name>FieloEE__AgreementFieldSet</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- BatchManagement --></label>
+        <name>FieloEE__BatchManagement</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- BatchManagementDetail --></label>
+        <name>FieloEE__BatchManagementDetail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- MenuFieldSet --></label>
+        <name>FieloEE__MenuFieldSet</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SetDefault --></label>
+        <name>FieloEE__SetDefault</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SetupExpirationMode --></label>
+        <name>FieloEE__SetupExpirationMode</name>
+    </webLinks>
+</CustomObjectTranslation>

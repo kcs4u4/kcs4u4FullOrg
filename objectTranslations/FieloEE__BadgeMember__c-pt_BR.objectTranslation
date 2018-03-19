@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Badge Member --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Badge Member --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Status --></label>
+        <name>FieloCH__Status__c</name>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processed</masterLabel>
+            <translation><!-- Processed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skip Engine</masterLabel>
+            <translation><!-- Skip Engine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Process</masterLabel>
+            <translation><!-- To Process --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Badge --></label>
+        <name>FieloEE__Badge2__c</name>
+        <relationshipLabel><!-- Badge Member (Badge) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Member --></label>
+        <name>FieloEE__Member2__c</name>
+        <relationshipLabel><!-- Badge Member (Member) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>FieloEE__Quantity__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>BadgeMember Layout</layout>
+        <sections>
+            <label>Links customizados</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- BadgeMember Name --></nameFieldLabel>
+</CustomObjectTranslation>

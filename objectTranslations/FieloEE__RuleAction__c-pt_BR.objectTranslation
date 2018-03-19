@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- zz_deprecated_Rule Action --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- zz_deprecated_Rule Action --></value>
+    </caseValues>
+    <fields>
+        <label><!-- zz_deprecated_Convertion Type --></label>
+        <name>FieloEE__ConvertionType__c</name>
+        <picklistValues>
+            <masterLabel>Factor</masterLabel>
+            <translation>Fator</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fix Value</masterLabel>
+            <translation>Valor fixo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multiplier</masterLabel>
+            <translation>Multiplicador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reward Field</masterLabel>
+            <translation>Campo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Convertion Value --></label>
+        <name>FieloEE__ConvertionValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Description --></label>
+        <name>FieloEE__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Expiration Month --></label>
+        <name>FieloEE__ExpirationMonth__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Field Name --></label>
+        <name>FieloEE__FieldName__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Instant Reward --></label>
+        <name>FieloEE__InstantReward__c</name>
+        <relationshipLabel><!-- Rule Actions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Rule --></label>
+        <name>FieloEE__Rule__c</name>
+        <relationshipLabel><!-- Rule Actions --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Stock Control --></label>
+        <name>FieloEE__StockControl__c</name>
+    </fields>
+    <fields>
+        <help>Nesta seção é necessário escolher o modo de ação das regras. Melhor opção: permite que a regra que mais pontua seja aplicada. Sempre: soma todas as regras que foram aplicadas nos critérios e consolida os pontos.</help>
+        <label><!-- zz_deprecated_Type --></label>
+        <name>FieloEE__Type__c</name>
+        <picklistValues>
+            <masterLabel>Always</masterLabel>
+            <translation>Somatório dos pontos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Best Option</masterLabel>
+            <translation>Melhor opção</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instant Reward</masterLabel>
+            <translation>Prêmio</translation>
+        </picklistValues>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Formato de Action</layout>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Action ID --></nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- You must put a value different of 0 --></errorMessage>
+        <name>FieloEE__Value_Different_of_0</name>
+    </validationRules>
+</CustomObjectTranslation>

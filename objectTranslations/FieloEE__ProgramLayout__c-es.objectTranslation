@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Program Layout --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Program Layout --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Background attribute --></label>
+        <name>FieloEE__BackgroundAttribute__c</name>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation>100,00%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No-repeat</masterLabel>
+            <translation>No repetir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeat</masterLabel>
+            <translation>Repetir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeat-x</masterLabel>
+            <translation>Repetir-x</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeat-y</masterLabel>
+            <translation>Repetir-y</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BackgroundId --></label>
+        <name>FieloEE__BackgroundId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Body Background Attribute --></label>
+        <name>FieloEE__BodyBackgroundAttribute__c</name>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation>100,00%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No-repeat</masterLabel>
+            <translation>No repetir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeat</masterLabel>
+            <translation>Repetir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeat-x</masterLabel>
+            <translation>Repetir-x</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeat-y</masterLabel>
+            <translation>Repetir-y</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Body Background Id --></label>
+        <name>FieloEE__BodyBackgroundId__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSS --></label>
+        <name>FieloEE__CSS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Color01 --></label>
+        <name>FieloEE__Color01__c</name>
+    </fields>
+    <fields>
+        <label><!-- Color02 --></label>
+        <name>FieloEE__Color02__c</name>
+    </fields>
+    <fields>
+        <label><!-- Color03 --></label>
+        <name>FieloEE__Color03__c</name>
+    </fields>
+    <fields>
+        <label><!-- Color04 --></label>
+        <name>FieloEE__Color04__c</name>
+    </fields>
+    <fields>
+        <label><!-- Color05 --></label>
+        <name>FieloEE__Color05__c</name>
+    </fields>
+    <fields>
+        <label><!-- Color06 --></label>
+        <name>FieloEE__Color06__c</name>
+    </fields>
+    <fields>
+        <label><!-- Color07 --></label>
+        <name>FieloEE__Color07__c</name>
+    </fields>
+    <fields>
+        <label><!-- Color08 --></label>
+        <name>FieloEE__Color08__c</name>
+    </fields>
+    <fields>
+        <label><!-- Color09 --></label>
+        <name>FieloEE__Color09__c</name>
+    </fields>
+    <fields>
+        <label><!-- Color10 --></label>
+        <name>FieloEE__Color10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Color11 --></label>
+        <name>FieloEE__Color11__c</name>
+    </fields>
+    <fields>
+        <label><!-- ColorFont01 --></label>
+        <name>FieloEE__ColorFont01__c</name>
+    </fields>
+    <fields>
+        <label><!-- ColorFont02 --></label>
+        <name>FieloEE__ColorFont02__c</name>
+    </fields>
+    <fields>
+        <label><!-- ColorFont03 --></label>
+        <name>FieloEE__ColorFont03__c</name>
+    </fields>
+    <fields>
+        <label><!-- ColorFont04 --></label>
+        <name>FieloEE__ColorFont04__c</name>
+    </fields>
+    <fields>
+        <label><!-- ColorFont05 --></label>
+        <name>FieloEE__ColorFont05__c</name>
+    </fields>
+    <fields>
+        <label><!-- ColorFont06 --></label>
+        <name>FieloEE__ColorFont06__c</name>
+    </fields>
+    <fields>
+        <label><!-- ColorFont07 --></label>
+        <name>FieloEE__ColorFont07__c</name>
+    </fields>
+    <fields>
+        <label><!-- ColorFont08 --></label>
+        <name>FieloEE__ColorFont08__c</name>
+    </fields>
+    <fields>
+        <label><!-- ColorFont09 --></label>
+        <name>FieloEE__ColorFont09__c</name>
+    </fields>
+    <fields>
+        <label><!-- ColorFont10 --></label>
+        <name>FieloEE__ColorFont10__c</name>
+    </fields>
+    <fields>
+        <label><!-- ColorFont11 --></label>
+        <name>FieloEE__ColorFont11__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default --></label>
+        <name>FieloEE__Default__c</name>
+    </fields>
+    <fields>
+        <label><!-- Font --></label>
+        <name>FieloEE__Font__c</name>
+    </fields>
+    <fields>
+        <label><!-- Footer Background Attribute --></label>
+        <name>FieloEE__FooterBackgroundAttribute__c</name>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation>100,00%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No-repeat</masterLabel>
+            <translation>No repetir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeat</masterLabel>
+            <translation>Repetir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeat-x</masterLabel>
+            <translation>Repetir-x</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeat-y</masterLabel>
+            <translation>Repetir-y</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Footer Background Id --></label>
+        <name>FieloEE__FooterBackgroundId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Footer --></label>
+        <name>FieloEE__Footer__c</name>
+        <picklistValues>
+            <masterLabel>fixed</masterLabel>
+            <translation>Fijo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>fullsize</masterLabel>
+            <translation>Tamaño completo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pagesize</masterLabel>
+            <translation>Tamaño de página</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- HTML head layout --></label>
+        <name>FieloEE__HTMLHeadLayout__c</name>
+    </fields>
+    <fields>
+        <label><!-- Header Background Attribute --></label>
+        <name>FieloEE__HeaderBackgroundAttribute__c</name>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation>100,00%</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No-repeat</masterLabel>
+            <translation>No repetir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeat</masterLabel>
+            <translation>Repetir</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeat-x</masterLabel>
+            <translation>Repetir-x</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeat-y</masterLabel>
+            <translation>Repetir-y</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Header --></label>
+        <name>FieloEE__Header__c</name>
+        <picklistValues>
+            <masterLabel>fixed</masterLabel>
+            <translation>Fijo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>fullsize</masterLabel>
+            <translation>Tamaño completo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pagesize</masterLabel>
+            <translation>Tamaño de página</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Home --></label>
+        <name>FieloEE__Home__c</name>
+        <relationshipLabel><!-- Program Layouts (Home) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Logo --></label>
+        <name>FieloEE__Logo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Menu --></label>
+        <name>FieloEE__Menu__c</name>
+        <picklistValues>
+            <masterLabel>nav</masterLabel>
+            <translation>Nav</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>pills</masterLabel>
+            <translation>Pills</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>tabs</masterLabel>
+            <translation>pestañas</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>FieloEE__Program__c</name>
+        <relationshipLabel><!-- Program Layout --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Search Reward Menu --></label>
+        <name>FieloEE__SearchRewardMenu__c</name>
+        <relationshipLabel><!-- Program Layouts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Segment --></label>
+        <name>FieloEE__Segment__c</name>
+        <relationshipLabel><!-- Program Layout --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Target --></label>
+        <name>FieloEE__Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>FieloEE__Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- headerBackgroundId --></label>
+        <name>FieloEE__headerBackgroundId__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <nameFieldLabel><!-- Program Layout Name --></nameFieldLabel>
+</CustomObjectTranslation>

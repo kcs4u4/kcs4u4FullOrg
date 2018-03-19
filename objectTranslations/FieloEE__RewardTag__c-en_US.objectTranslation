@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Expiration Date --></label>
+        <name>FieloEE__ExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reward --></label>
+        <name>FieloEE__Reward__c</name>
+        <relationshipLabel><!-- Rewards Tags --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Tag --></label>
+        <name>FieloEE__Tag__c</name>
+        <relationshipLabel><!-- Rewards Tags --></relationshipLabel>
+    </fields>
+    <webLinks>
+        <label><!-- NewRedwardTag --></label>
+        <name>FieloEE__NewRedwardTag</name>
+    </webLinks>
+</CustomObjectTranslation>

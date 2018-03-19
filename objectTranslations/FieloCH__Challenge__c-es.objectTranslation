@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Challenge --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Challenge --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Accomplish Action --></label>
+        <name>FieloCH__AcomplishAction__c</name>
+        <picklistValues>
+            <masterLabel>Continue</masterLabel>
+            <translation><!-- Continue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finish</masterLabel>
+            <translation><!-- Finish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeat</masterLabel>
+            <translation><!-- Repeat --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PictureId --></label>
+        <name>FieloCH__AttachmentId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>FieloCH__Category__c</name>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation>Defecto</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Challenge --></label>
+        <name>FieloCH__Challenge__c</name>
+        <relationshipLabel><!-- Challenges --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- -Objective:  Each member that accomplishes the challenge wins
+-Time: Its a race time, wins the first member that completes the challenge
+-Performance: It’s a competition by value, the member with best performance  wins challenge --></help>
+        <label><!-- Competition Type --></label>
+        <name>FieloCH__CompetitionType__c</name>
+        <picklistValues>
+            <masterLabel>Objective</masterLabel>
+            <translation>Objetivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance</masterLabel>
+            <translation>Desempeño</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Time</masterLabel>
+            <translation>Tiempo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Days Left --></label>
+        <name>FieloCH__DaysLeft__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>FieloCH__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Date --></label>
+        <name>FieloCH__FinalDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Date --></label>
+        <name>FieloCH__InitialDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inject BadgeIds --></label>
+        <name>FieloCH__InjectBadgeIds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>FieloCH__IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mission Counter --></label>
+        <name>FieloCH__MissionsCounter__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione Competitivo si desea crear un Desafío para cada miembro o Colaborativo si desea crear una única misión que será cumplida por la comunidad</help>
+        <label><!-- Mode --></label>
+        <name>FieloCH__Mode__c</name>
+        <picklistValues>
+            <masterLabel>Collaborative</masterLabel>
+            <translation>Colaborativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competition</masterLabel>
+            <translation>Competición</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Groups</masterLabel>
+            <translation><!-- Groups --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teams</masterLabel>
+            <translation><!-- Teams --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Objects --></label>
+        <name>FieloCH__Objects__c</name>
+        <picklistValues>
+            <masterLabel>FieloEE__BadgeMember__c</masterLabel>
+            <translation><!-- FieloEE__BadgeMember__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FieloEE__Event__c</masterLabel>
+            <translation><!-- FieloEE__Event__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FieloEE__Transaction__c</masterLabel>
+            <translation><!-- FieloEE__Transaction__c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picture --></label>
+        <name>FieloCH__Picture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Processed --></label>
+        <name>FieloCH__Processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Program --></label>
+        <name>FieloCH__Program__c</name>
+        <relationshipLabel><!-- Challenges --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Copy subscription list from previous --></label>
+        <name>FieloCH__RecurrenceAutoSubscribe__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecurrenceDayOfMonth --></label>
+        <name>FieloCH__RecurrenceDayOfMonth__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecurrenceInstance --></label>
+        <name>FieloCH__RecurrenceInstance__c</name>
+        <picklistValues>
+            <masterLabel>1st</masterLabel>
+            <translation>1er</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd</masterLabel>
+            <translation>2do</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd</masterLabel>
+            <translation>3ro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4th</masterLabel>
+            <translation>4to</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>last</masterLabel>
+            <translation>ultimo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Recurrence Interval --></label>
+        <name>FieloCH__RecurrenceInterval__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecurrenceType --></label>
+        <name>FieloCH__RecurrenceType__c</name>
+        <picklistValues>
+            <masterLabel>RecursDaily</masterLabel>
+            <translation>RecursDaly</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RecursEveryWeekday</masterLabel>
+            <translation><!-- RecursEveryWeekday --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RecursMonthly</masterLabel>
+            <translation><!-- RecursMonthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RecursMonthlyNth</masterLabel>
+            <translation><!-- RecursMonthlyNth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RecursWeekly</masterLabel>
+            <translation><!-- RecursWeekly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RecursYearly</masterLabel>
+            <translation><!-- RecursYearly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RecursYearlyNth</masterLabel>
+            <translation><!-- RecursYearlyNth --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Checks if the members can participate again although it has won the challenge. --></help>
+        <label><!-- Repeatable --></label>
+        <name>FieloCH__Repeatable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reward Counter --></label>
+        <name>FieloCH__RewardCounter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>FieloCH__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscribe Automatically --></label>
+        <name>FieloCH__SubscribeAutomatically__c</name>
+    </fields>
+    <fields>
+        <label><!-- From --></label>
+        <name>FieloCH__SubscribeFrom__c</name>
+    </fields>
+    <fields>
+        <label><!-- To --></label>
+        <name>FieloCH__SubscribeTo__c</name>
+    </fields>
+    <fields>
+        <help>-Abierto: Por suscripción, cualquier participante puede suscribirse. -Cerrado: Sin suscripción, el administrador suscribe los participantes</help>
+        <label><!-- Subscription Mode --></label>
+        <name>FieloCH__Subscription__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>Cerrado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation><!-- Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>Abierto</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Position Table Type --></label>
+        <name>FieloCH__TableType__c</name>
+        <picklistValues>
+            <masterLabel>Position Ranking</masterLabel>
+            <translation>Ranking de Posiciones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>Estándar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value Ranking</masterLabel>
+            <translation>Ranking de Valores</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Si esta como no visible los participantes del Desafío no sabrán que están dentro hasta que lo ganen</help>
+        <label><!-- Is Visible --></label>
+        <name>FieloCH__Visible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Friday --></label>
+        <name>FieloCH__onFriday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monday --></label>
+        <name>FieloCH__onMonday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Saturday --></label>
+        <name>FieloCH__onSaturday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sunday --></label>
+        <name>FieloCH__onSunday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Thursday --></label>
+        <name>FieloCH__onThursday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tuesday --></label>
+        <name>FieloCH__onTuesday__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wednesday --></label>
+        <name>FieloCH__onWednesday__c</name>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Challenge Layout</layout>
+        <sections>
+            <label>Definición del Desafío</label>
+            <section>Challenge Definition</section>
+        </sections>
+        <sections>
+            <label>Estado del Desafío</label>
+            <section>Challenge Status</section>
+        </sections>
+        <sections>
+            <label>Progreso de la comunidad</label>
+            <section>Community Progress</section>
+        </sections>
+        <sections>
+            <label>Enlaces personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Descripción</label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label>Información</label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label>Imagen</label>
+            <section>Picture</section>
+        </sections>
+        <sections>
+            <label>Periodo</label>
+            <section>Subscription Period</section>
+        </sections>
+        <sections>
+            <label>Comunidad</label>
+            <section>Target Community</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Series Element</layout>
+        <sections>
+            <label>Definición del Desafío</label>
+            <section>Challenge Definition</section>
+        </sections>
+        <sections>
+            <label>Estado</label>
+            <section>Challenge Status</section>
+        </sections>
+        <sections>
+            <label>Enlaces personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Descripción</label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label>Información</label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label>Imagen</label>
+            <section>Picture</section>
+        </sections>
+        <sections>
+            <label>Ver Estado</label>
+            <section>Status View</section>
+        </sections>
+        <sections>
+            <label>Periodo</label>
+            <section>Subscription Period</section>
+        </sections>
+        <sections>
+            <label>Comunidad</label>
+            <section>Target Community</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Series --></label>
+        <name>Series</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Single --></label>
+        <name>Single</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Can&apos;t Activate a Challenge without a mission or reward --></errorMessage>
+        <name>FieloCH__Active_Challenge</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Competition Type is Required when Mode is selected --></errorMessage>
+        <name>FieloCH__Competition_Type_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot change Competition Type if already have missions. --></errorMessage>
+        <name>FieloCH__Edit_Challenge_Competition</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot change Mode if already have missions or community associated. --></errorMessage>
+        <name>FieloCH__Edit_Challenge_Mode</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot modified Competition Type if you had associated rewards. Go to &quot;Manage Rewards&quot;  and delete them first. --></errorMessage>
+        <name>FieloCH__Edit_Competition_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Initial Date must be before Final Date --></errorMessage>
+        <name>FieloCH__Final_Date_After_Initial_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Mode must be selected --></errorMessage>
+        <name>FieloCH__Mode_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Challenge must belong to a Program. --></errorMessage>
+        <name>FieloCH__Program_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Repeatable is valid only for Objective Competition Type --></errorMessage>
+        <name>FieloCH__Recurrence_Type_Valid</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Subscription Mode is Required --></errorMessage>
+        <name>FieloCH__Subscription_Mode_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Subscription period Final Date cannot be greater than Challenge Final Date. --></errorMessage>
+        <name>FieloCH__Subscription_Period</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Subscription Initial Date cannot be greater than Subscription Final Date or greater than Challenge Initial Date --></errorMessage>
+        <name>FieloCH__Subscription_Period_Valid_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Subscription Mode is Open then visibility must be checked. --></errorMessage>
+        <name>FieloCH__Visibility_False_for_Subscription_Close</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Active --></label>
+        <name>FieloCH__Active</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateSeries --></label>
+        <name>FieloCH__CreateSeries</name>
+    </webLinks>
+</CustomObjectTranslation>

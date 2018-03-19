@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <label>Object</label>
+    <tab>Object__c</tab>
+    <tab>Camping_Item__c</tab>
+    <tab>Branch__c</tab>
+    <tab>Branch2__c</tab>
+    <tab>Branch3__c</tab>
+    <tab>Branch1__c</tab>
+    <tab>A__c</tab>
+    <tab>B__c</tab>
+    <tab>C__c</tab>
+    <tab>Expense__c</tab>
+    <tab>Suggestion__c</tab>
+    <tab>Students1</tab>
+    <tab>Stsudent1</tab>
+    <tab>Waypoint__c</tab>
+    <tab>External_Application__c</tab>
+    <tab>Jio__x</tab>
+    <tab>Travel_Forecast_Form__c</tab>
+    <tab>Property__c</tab>
+</CustomApplication>

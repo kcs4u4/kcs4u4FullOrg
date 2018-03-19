@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Component --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Component --></value>
+    </caseValues>
+    <fields>
+        <help><!-- Active List: Displays the challenges that the member is participating.
+History: Displays the challenges finished by the member with the results.
+Subscribe List: Displays the challenges that the member has available to subscribe. --></help>
+        <label><!-- Challenge Type --></label>
+        <name>FieloCH__ChallengeType__c</name>
+        <picklistValues>
+            <masterLabel>Active list</masterLabel>
+            <translation>Lista ativa</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>History</masterLabel>
+            <translation>Histórico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscribe list</masterLabel>
+            <translation>Lista de cadastros</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Challenge View Display --></label>
+        <name>FieloCH__ChallengeViewDisplay__c</name>
+        <picklistValues>
+            <masterLabel>Details</masterLabel>
+            <translation>Detalhes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leaderboard</masterLabel>
+            <translation>Ranking</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missions</masterLabel>
+            <translation>Missões</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rewards</masterLabel>
+            <translation>Prêmios</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Challenge --></label>
+        <name>FieloCH__Challenge__c</name>
+        <relationshipLabel><!-- Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CRUD / ListView CSS Class Name --></label>
+        <name>FieloCRUD__CssClassName__c</name>
+    </fields>
+    <fields>
+        <label><!-- List View --></label>
+        <name>FieloCRUD__ListView__c</name>
+        <relationshipLabel><!-- Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Defines the Object Setting where you want to add CRUD actions. --></help>
+        <label><!-- Object Settings --></label>
+        <name>FieloCRUD__ObjectSettings__c</name>
+        <relationshipLabel><!-- Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Only complete this field if you want to display &quot;Form&quot; or &quot;Profile&quot; page layouts. --></help>
+        <label><!-- Page Layout --></label>
+        <name>FieloCRUD__PageLayout__c</name>
+        <relationshipLabel><!-- Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>FieloEE__Account__c</name>
+        <relationshipLabel><!-- Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Banner placement --></label>
+        <name>FieloEE__BannerPlacement__c</name>
+        <picklistValues>
+            <masterLabel>Home Side</masterLabel>
+            <translation><!-- Home Side --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Top</masterLabel>
+            <translation><!-- Home Top --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter a CSS code that will modify this component. --></help>
+        <label><!-- CSS --></label>
+        <name>FieloEE__CCS__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the CSS classes for the corresponding component. --></help>
+        <label><!-- CSS Classes --></label>
+        <name>FieloEE__CSSClasses__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the category that will be shown by this component. --></help>
+        <label><!-- Category --></label>
+        <name>FieloEE__Category__c</name>
+        <relationshipLabel><!-- Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Se você quiser utilizar um conteúdo em HTML, coloque neste campo. Este subtituirá o campo acima.</help>
+        <label><!-- HTML Code --></label>
+        <name>FieloEE__ContentHTML__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter text and images. --></help>
+        <label><!-- Content --></label>
+        <name>FieloEE__Content__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the time, in milliseconds, for each image to be shown. --></help>
+        <label><!-- Delay --></label>
+        <name>FieloEE__Delay__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this option if you want this component to be shown in a desktop computer. --></help>
+        <label><!-- Desktop --></label>
+        <name>FieloEE__Desktop__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display --></label>
+        <name>FieloEE__Display__c</name>
+        <picklistValues>
+            <masterLabel>Accordion</masterLabel>
+            <translation>Carrossel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bottom</masterLabel>
+            <translation>Inferior</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grid</masterLabel>
+            <translation>Grade</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Page</masterLabel>
+            <translation>Página Interna</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Left</masterLabel>
+            <translation>Esquerda</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation>Lista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modal</masterLabel>
+            <translation><!-- Modal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Scrollbars</masterLabel>
+            <translation>Sem barra de rolagem</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Right</masterLabel>
+            <translation>Direita</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scrollbars</masterLabel>
+            <translation>Barras de Rolagem</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top</masterLabel>
+            <translation><!-- Top --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Field Set 2 --></label>
+        <name>FieloEE__FieldSet2__c</name>
+    </fields>
+    <fields>
+        <label><!-- FieldSet --></label>
+        <name>FieloEE__FieldSet__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Filter --></label>
+        <name>FieloEE__Filter2__c</name>
+        <picklistValues>
+            <masterLabel>FieloExtraTag_allPrizes</masterLabel>
+            <translation>Todos os Prêmios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FieloExtraTag_mostPolular</masterLabel>
+            <translation>Mais Popular</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FieloExtraTag_mostRecent</masterLabel>
+            <translation>Mais Recente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FieloExtraTag_mostVoted</masterLabel>
+            <translation>Mais Votado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FieloExtraTag_myPrizes</masterLabel>
+            <translation>Meus Prêmios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FieloExtraTag_wishList</masterLabel>
+            <translation>Lista de Desejo</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Pick the segments you want to show this item to. --></help>
+        <label><!-- Filter By Segment --></label>
+        <name>FieloEE__FilterBySegment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Filter Formula --></label>
+        <name>FieloEE__FilterFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Display Device --></label>
+        <name>FieloEE__Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Height --></label>
+        <name>FieloEE__Height__c</name>
+    </fields>
+    <fields>
+        <label><!-- Layout --></label>
+        <name>FieloEE__Layout__c</name>
+        <picklistValues>
+            <masterLabel>Column</masterLabel>
+            <translation>Coluna</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grid</masterLabel>
+            <translation>Grade</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation>Lista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Row</masterLabel>
+            <translation>Linha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slider</masterLabel>
+            <translation>Carrossel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tabs</masterLabel>
+            <translation>Guias</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Menu Redirect --></label>
+        <name>FieloEE__MenuRedirect__c</name>
+        <relationshipLabel><!-- Components (Menu Redirect) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Menu --></label>
+        <name>FieloEE__Menu__c</name>
+        <relationshipLabel><!-- Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Check this option for making this component visible in a mobile device. --></help>
+        <label><!-- Mobile --></label>
+        <name>FieloEE__Mobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Use URL Filters --></label>
+        <name>FieloEE__Modal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Content feed category --></label>
+        <name>FieloEE__NewsCategory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Content feed type --></label>
+        <name>FieloEE__NewsType__c</name>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation>Evento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAQ</masterLabel>
+            <translation><!-- FAQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>News</masterLabel>
+            <translation>Geral</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Se você configurar um título, este aparecerá no topo do componente.</help>
+        <label><!-- Title --></label>
+        <name>FieloEE__OptionalName__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose the order criteria for rewards. --></help>
+        <label><!-- Order By --></label>
+        <name>FieloEE__OrderBy__c</name>
+        <picklistValues>
+            <masterLabel>Name</masterLabel>
+            <translation>Nome</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Name - Points</masterLabel>
+            <translation>Nome - Pontos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Points</masterLabel>
+            <translation>Pontos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Points - Name</masterLabel>
+            <translation>Pontos - Nome</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the order in which the components are placed in the section. --></help>
+        <label><!-- Order --></label>
+        <name>FieloEE__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Page Name --></label>
+        <name>FieloEE__PageName__c</name>
+    </fields>
+    <fields>
+        <help>Marque está opção caso queira paginar.</help>
+        <label><!-- Paging --></label>
+        <name>FieloEE__Paging__c</name>
+    </fields>
+    <fields>
+        <help>Insira o número de itens por página.</help>
+        <label><!-- Items per Page --></label>
+        <name>FieloEE__Qant__c</name>
+    </fields>
+    <fields>
+        <help>Insira o número de colunas por página</help>
+        <label><!-- Number of Columns --></label>
+        <name>FieloEE__Qcolumns__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Insira o número de linhas por página</help>
+        <label><!-- Number of Rows --></label>
+        <name>FieloEE__Qrows__c</name>
+    </fields>
+    <fields>
+        <label><!-- Section --></label>
+        <name>FieloEE__Section__c</name>
+        <relationshipLabel><!-- Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Check this option for making this component visible in a tablet computer. --></help>
+        <label><!-- Tablet --></label>
+        <name>FieloEE__Tablet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select the tag that will be shown by this component. --></help>
+        <label><!-- Tag --></label>
+        <name>FieloEE__Tag__c</name>
+        <relationshipLabel><!-- Components --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Text --></label>
+        <name>FieloEE__Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction Type --></label>
+        <name>FieloEE__TransactionType__c</name>
+    </fields>
+    <fields>
+        <label><!-- zz_deprecated_Type --></label>
+        <name>FieloEE__Type__c</name>
+        <picklistValues>
+            <masterLabel>Column</masterLabel>
+            <translation>Coluna</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Row</masterLabel>
+            <translation>Linha</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slider</masterLabel>
+            <translation>Carrossel</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Width --></label>
+        <name>FieloEE__Width__c</name>
+    </fields>
+    <fields>
+        <label><!-- Survey --></label>
+        <name>FieloSVY__Survey__c</name>
+        <relationshipLabel><!-- Components --></relationshipLabel>
+    </fields>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Account</layout>
+        <sections>
+            <label>Avanzado</label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label>Links customizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Campos</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Design responsivo</label>
+            <section>Responsive Design</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Banner</layout>
+        <sections>
+            <label>Avanzado</label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label>Links customizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informação</label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label>Design responsivo</label>
+            <section>Responsive Design</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Banner Widget</layout>
+        <sections>
+            <label><!-- Advanced --></label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Responsive Design --></label>
+            <section>Responsive Design</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Branches</layout>
+        <sections>
+            <label>Avanzado</label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Responsive Design --></label>
+            <section>Responsive Design</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CRUD</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Catalog</layout>
+        <sections>
+            <label>Avanzado</label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label>Links customizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Filtro</label>
+            <section>Filter</section>
+        </sections>
+        <sections>
+            <label>Informação</label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label>Formato</label>
+            <section>Layout</section>
+        </sections>
+        <sections>
+            <label>Design responsivo</label>
+            <section>Responsive Design</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Categories</layout>
+        <sections>
+            <label>Avanzado</label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label>Links customizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informação</label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label>Design responsivo</label>
+            <section>Responsive Design</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Challeng Leaderboard</layout>
+        <sections>
+            <label><!-- Advance --></label>
+            <section>Advance</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Challenge Detail</layout>
+        <sections>
+            <label><!-- Advance --></label>
+            <section>Advance</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Challenge Missions</layout>
+        <sections>
+            <label><!-- Advance --></label>
+            <section>Advance</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Challenge Rewards</layout>
+        <sections>
+            <label><!-- Advance --></label>
+            <section>Advance</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Challenges</layout>
+        <sections>
+            <label>Avançado</label>
+            <section>Advance</section>
+        </sections>
+        <sections>
+            <label>Links customizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Campos</label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Content</layout>
+        <sections>
+            <label>Avanzado</label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label>Conteúdo</label>
+            <section>Content</section>
+        </sections>
+        <sections>
+            <label>Links customizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informação</label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label>Design responsivo</label>
+            <section>Responsive Design</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Content Widget</layout>
+        <sections>
+            <label><!-- Advanced --></label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label><!-- Content --></label>
+            <section>Content</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Responsive Design --></label>
+            <section>Responsive Design</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Get Points</layout>
+        <sections>
+            <label>Avanzado</label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Responsive Design --></label>
+            <section>Responsive Design</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Include Page</layout>
+        <sections>
+            <label>Avanzado</label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label>Links customizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informação</label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label>Design responsivo</label>
+            <section>Responsive Design</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>List View</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Menu2</layout>
+        <sections>
+            <label>Avançado</label>
+            <section>Advance</section>
+        </sections>
+        <sections>
+            <label>Links customizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informação</label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label>Design responsivo</label>
+            <section>Responsive Design</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>News</layout>
+        <sections>
+            <label>Avançado</label>
+            <section>Advance</section>
+        </sections>
+        <sections>
+            <label>Links customizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Filtro</label>
+            <section>Filter</section>
+        </sections>
+        <sections>
+            <label>Informação</label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Layout --></label>
+            <section>Layout</section>
+        </sections>
+        <sections>
+            <label>Design responsivo</label>
+            <section>Responsive Design</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Survey</layout>
+        <sections>
+            <label><!-- Advanced --></label>
+            <section>Advanced</section>
+        </sections>
+        <sections>
+            <label><!-- Content --></label>
+            <section>Content</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Component Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Badges --></label>
+        <name>Badges</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Banner --></label>
+        <name>Banner</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Banner Widget --></label>
+        <name>BannerWidget</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Branches --></label>
+        <name>Branchs</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Breadcrumb --></label>
+        <name>Breadcrumb</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CRUD --></label>
+        <name>CRUD</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Catalog --></label>
+        <name>Catalog</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Categories --></label>
+        <name>Categories</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Challenge Detail --></label>
+        <name>ChallengeDetail</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Challenge Leaderboard --></label>
+        <name>ChallengeLeaderboard</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Challenge Missions --></label>
+        <name>ChallengeMissions</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Challenge Rewards --></label>
+        <name>ChallengeRewards</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Challenges --></label>
+        <name>Challenges</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Content --></label>
+        <name>Content</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Content Widget --></label>
+        <name>ContentWidget</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GetPoints --></label>
+        <name>GetPoints</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Include Page --></label>
+        <name>IncludePage</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- List View --></label>
+        <name>ListView</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Login --></label>
+        <name>Login</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Menu --></label>
+        <name>Menu</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Content Feed --></label>
+        <name>News</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Profile --></label>
+        <name>Profile</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Redemptions --></label>
+        <name>Redemptions</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Register --></label>
+        <name>Register</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Search --></label>
+        <name>Search</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ShoppingCart --></label>
+        <name>ShoppingCart</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Survey --></label>
+        <name>Survey</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Survey Catalog --></label>
+        <name>SurveyCatalog</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Transactions --></label>
+        <name>Transactions</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Must select a Challenge. --></errorMessage>
+        <name>FieloCH__Challenge_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- CustomizeFields --></label>
+        <name>FieloCH__CustomizeFields</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- BacktoMenu --></label>
+        <name>FieloEE__BacktoMenu</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CustomizeFields --></label>
+        <name>FieloEE__CustomizeFields</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CustomizeListFields --></label>
+        <name>FieloEE__CustomizeListFields</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ReorderComponent --></label>
+        <name>FieloEE__ReorderComponent</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- List View --></label>
+        <name>FieloCRUD__ListView__c</name>
+        <relationshipLabel><!-- Related Views --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order --></label>
+        <name>FieloCRUD__Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related View --></label>
+        <name>FieloCRUD__RelatedView__c</name>
+        <relationshipLabel><!-- Related List Views --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- View Name --></label>
+        <name>FieloCRUD__ViewName__c</name>
+    </fields>
+    <layouts>
+        <layout>CRUD Related View Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- AddExistingViews --></label>
+        <name>FieloCRUD__AddExistingViews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ReorderViews --></label>
+        <name>FieloCRUD__ReorderViews</name>
+    </webLinks>
+</CustomObjectTranslation>
